@@ -1,21 +1,63 @@
+#hero
+  %h1.cursive You deserve the perfect vacation
+
+  .flight-form
+    .row
+      %h2.white Flights
+      %form
+        .row.collapse
+          .column.large-4
+            %input{type: "text", placeholder: "Chicago (CHI)"}
+          .column.large-4
+            %input{type: "text", placeholder: "To"}  
+          .column.large-4
+            %select{type: "select"}
+              %option{value:"Economy"} Economy
+              %option{value:"Premium Economy"} Premium Economy
+              %option{value:"Business"} Business
+              %option{value:"First Class"} First Class
+        .row.collapse 
+          .column.large-4
+            %input{type: "text", placeholder: "Depart"}
+          .column.large-4.end
+            %input{type: "text", placeholder: "Return"}
+          .column.large-4
+            %input.button.postfix{type: "submit", value: "Search"}  
+                     
+
+
+
 .row
-  %h1 welcome
+  %h2.green Deals
 
 .row
   .column.large-6
-    %p fadlskfj adaklsdfj klajsdflkasj dflakjsd f;alksdj f;alkdjs f;alskdjf al;ksdf jal;kdjs faklsdj faal;ksdfj aklds
+    .deal 
+      %img{:src => "/img/Deals1.png"}
+  .column.large-3
+    .deal 
+      %img{:src => "/img/Deals2.png"}
+  .column.large-3
+    .deal
+      %img{:src => "/img/Deals3.png"}
+  .column.large-3
+    .deal
+      %img{:src => "/img/Deals4.png"}
   .column.large-6
-    %p fadlskfj adaklsdfj klajsdflkasj dflakjsd f;alksdj f;alkdjs f;alskdjf al;ksdf jal;kdjs faklsdj faal;ksdfj aklds
+    .deal
+      %img{:src => "/img/Deals5.png"}
+  .column.large-3
+    .deal 
+      %img{:src => "/img/Deals6.png"}
+  .column.large-6
+    .deal
+      %img{:src => "/img/Deals7.png"}
+  .column.large-3
+    .deal
+      %img{:src => "/img/Deals8.png"}
+  .column.large-3
+    .deal
+      %img{:src => "/img/Deals9.png"}   
 
-.row
-  %h2 Deals
 
-.row
-  .column.large-3
-    .deal My Deal
-  .column.large-3
-    .deal My Deal
-  .column.large-3
-    .deal My Deal
-  .column.large-3
-    .deal My Deal
+

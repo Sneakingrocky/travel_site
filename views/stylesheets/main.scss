@@ -1,9 +1,68 @@
 @import "compass";
 
+@include font-face("Jennifer Lynne", font-files("/fonts/jennifer_lynne/jennifer_lynne.eot", "/fonts/jennifer_lynne/jennifer_lynne.eot"));
+
+#nav.top-bar {
+  left: 0;
+  right: 0;
+  z-index: 100;
+  position: absolute;
+  background: rgba(113, 176, 149, .5);
+  color: black;
+  li, li a { 
+    background: none;
+  }
+  li:hover {
+    background: rgba(113, 176, 149, .6);
+
+  }
+}
+
+.flight-form {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  padding-top: 30px;
+  background: rgba(26, 53, 44,.6);
+  h2 {
+    top: -60px;
+    position: absolute;
+    color: white;
+  }  
+}
+
+h2.green {
+  color: rgb(113, 176, 149);
+}
+
+
 .deal {
   width: 100%;
   height: 200px;
-  background: #eee;
+  background: #000;
   margin-bottom: 20px;
   @include border-radius();
+}
+
+
+#hero { 
+  background-image: url("/img/Hero.png");
+  width: 100%;
+  height: 600px;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    font-size: 110px;
+    color: white;
+    padding-top: 150px;
+    margin: 0;
+  }
+}
+
+.cursive {
+  font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }

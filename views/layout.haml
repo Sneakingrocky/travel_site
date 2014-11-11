@@ -5,4 +5,27 @@
     %link{rel: "stylesheet", type: "text/css", href: "/css/normalize.css"}
     %link{rel: "stylesheet", type: "text/css", href: "/css/foundation.min.css"}
     %link{rel: "stylesheet", type: "text/css", href: "/css/main.css"}
-  %body= yield
+  %body
+    %nav#nav.top-bar
+      %ul.title-area
+        %li.name
+          %h1
+            %a{href: "/"} Escape
+      %section.top-bar-section
+        %ul.left
+          %li
+            %a{href: "/flights"} Flights
+          %li
+            %a{href: "/hotels"} Hotels
+          %li
+            %a{href: "/cars"} Cars
+          %li
+            %a{href: "/deals"} Deals
+        %ul.right
+          %li
+            %a{href: "#"} Login
+          %li
+            %a{href: "#"} Signup
+
+    = yield
+

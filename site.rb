@@ -9,3 +9,20 @@ end
 get '/' do
   haml :home
 end
+
+get '/flights' do
+  haml :flights
+end
+
+get '/hotels' do
+  haml :hotels
+end
+
+get '/cars' do
+  haml :cars
+end
+
+get '/deals' do
+  haml :deals
+end
+

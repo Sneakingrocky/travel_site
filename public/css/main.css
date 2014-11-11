@@ -1,12 +1,79 @@
-/* line 3, ../../views/stylesheets/main.scss */
+@font-face {
+  font-family: "Jennifer Lynne";
+  src: url(/fonts/jennifer_lynne/jennifer_lynne.eot) format('embedded-opentype'), url(/fonts/jennifer_lynne/jennifer_lynne.eot) format('embedded-opentype');
+}
+
+/* line 5, ../../views/stylesheets/main.scss */
+#nav.top-bar {
+  left: 0;
+  right: 0;
+  z-index: 100;
+  position: absolute;
+  background: rgba(113, 176, 149, 0.5);
+  color: black;
+}
+/* line 12, ../../views/stylesheets/main.scss */
+#nav.top-bar li, #nav.top-bar li a {
+  background: none;
+}
+/* line 15, ../../views/stylesheets/main.scss */
+#nav.top-bar li:hover {
+  background: rgba(113, 176, 149, 0.6);
+}
+
+/* line 21, ../../views/stylesheets/main.scss */
+.flight-form {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  padding-top: 30px;
+  background: rgba(26, 53, 44, 0.6);
+}
+/* line 30, ../../views/stylesheets/main.scss */
+.flight-form h2 {
+  top: -60px;
+  position: absolute;
+  color: white;
+}
+
+/* line 37, ../../views/stylesheets/main.scss */
+h2.green {
+  color: #71b095;
+}
+
+/* line 42, ../../views/stylesheets/main.scss */
 .deal {
   width: 100%;
   height: 200px;
-  background: #eee;
+  background: #000;
   margin-bottom: 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+
+/* line 51, ../../views/stylesheets/main.scss */
+#hero {
+  background-image: url("/img/Hero.png");
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+/* line 57, ../../views/stylesheets/main.scss */
+#hero h1 {
+  text-align: center;
+  font-size: 110px;
+  color: white;
+  padding-top: 150px;
+  margin: 0;
+}
+
+/* line 66, ../../views/stylesheets/main.scss */
+.cursive {
+  font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
