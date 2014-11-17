@@ -3,48 +3,18 @@
 @include font-face("Jennifer Lynne", font-files("/fonts/jennifer_lynne/jennifer_lynne.eot", "/fonts/jennifer_lynne/jennifer_lynne.eot"));
 
 #nav.top-bar {
-  left: 0;
-  right: 0;
   z-index: 100;
-  position: absolute;
   background: rgba(113, 176, 149, .5);
   color: black;
+
   li, li a { 
     background: none;
   }
+
   li:hover {
     background: rgba(113, 176, 149, .6);
 
   }
-}
-
-.flight-form {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  color: black;
-  padding: 10px;
-  padding-top: 30px;
-  background: rgba(26, 53, 44,.6);
-  h2 {
-    top: -60px;
-    position: absolute;
-    color: white;
-  }  
-}
-
-h2.green {
-  color: rgb(113, 176, 149);
-}
-
-
-.deal {
-  width: 100%;
-  height: 200px;
-  background: #000;
-  margin-bottom: 20px;
-  @include border-radius();
 }
 
 
@@ -53,6 +23,7 @@ h2.green {
   width: 100%;
   height: 600px;
   position: relative;
+  margin-top: -45px;
 
   h1 {
     text-align: center;
@@ -63,6 +34,193 @@ h2.green {
   }
 }
 
+.flight-form {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+  background: rgba(26, 53, 44,.6);
+
+  h2 {
+    top: -60px;
+    position: absolute;
+    color: white;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: rgb(200, 200, 200);
+    }
+  } 
+}
+
+.deal {
+  width: 100%;
+  background: rgb(26, 33, 44);
+  margin-bottom: 20px;
+
+  &:hover img {
+    opacity: .4;
+  }
+
+  img {
+    width: 100%;
+    opacity: .7;
+    @include single-transition(opacity, 0.5s);
+  }
+}
+
+.deal .place {
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+}
+
+.deal .price {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+}
+
+
+.deals-form-page {
+  margin-bottom: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.flight-form-page {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+
+  a:hover {
+    color: rgb(200, 200, 200);
+  } 
+}
+
+.flight .airline {
+  color: gray;
+  font-size: 17px;
+}
+
+.flight .ticket-price {
+  color: rgb(113, 176, 149);
+  font-size: 20px;
+}
+
+
+.flight {
+  border: 1px solid #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hotel-price {
+  color: rgb(113, 176, 149);
+  font-size: 20px;
+}
+
+.hotel-name {
+  color: rgb(113, 176, 149);
+  font-size: 25px;
+}
+
+.hotel-info {
+  color: gray;
+  font-size: 17px;
+}
+
+.cars-form-page {
+  a:hover {
+    color: rgb(200, 200, 200);
+  } 
+}
+
+.lighter {
+  color: gray;
+}
+
+.green {
+  color: rgb(113, 176, 149);
+}
+
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
+
+.position-right {
+  float: right;
+  padding-top: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 7px;
+}
+
+.extra-margin-header {
+  margin-top: 50px;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+
+.footer {
+  margin-top: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(113, 176, 149);
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 14px;
+
+    &:hover {
+      color: rgb(230, 230, 230);
+    }  
+
+  }
+
+}
+
+.social-media {
+  img {
+    padding-top: 10px;
+    padding-left: 4px;
+    position: relative;
+    @include single-transition(top, 0.1s);
+    top: 0;
+  }
+
+  a:hover img {
+    top: -5px;
+  }
+}
+
+

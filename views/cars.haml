@@ -1,1 +1,26 @@
-Cars
+.cars-form-page
+  .row
+    .column
+      %h2.green.extra-margin-header Cars
+      %form{action: "/car_results"}
+        .row
+          .column.large-4
+            .margin-bottom
+              %a.padding-right{href: "#"} Same drop-off
+              %a{href: "#"} Different drop-off
+        .row.collapse
+          .column.large-4
+            %input{type: "text", placeholder: "Pick-up location"}
+          .column.large-4.small-6
+            %input{type: "text", placeholder: "Pick-up date"} 
+          .column.large-4.small-6
+            %input{type: "text", placeholder: "Pick-up time"}
+        .row.collapse
+          .column.large-4     
+            %input{type: "text", placeholder: "Drop-off location"}
+          .column.large-4.small-6
+            %input{type: "text", placeholder: "Drop-off date"}
+          .column.large-4.small-6
+            %input{type: "text", placeholder: "Drop-off time"}            
+          .column.large-4
+            %input.button.postfix{type: "submit", value: "Search"} 

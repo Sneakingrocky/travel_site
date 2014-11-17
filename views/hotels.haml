@@ -1,1 +1,19 @@
-Hotels
+.hotels-form-page
+  .row
+    .column
+      %h2.green.extra-margin-header Hotels
+      %form{action: "/hotel_results"}
+        .row.collapse
+          .column.large-4
+            %input{type: "text", placeholder: "Location"}
+          .column.large-2
+            %input{type: "text", placeholder: "Check In"} 
+          .column.large-2
+            %input{type: "text", placeholder: "Check Out"}
+          .column.large-1.small-6
+            %input{type: "text", placeholder: "Rooms"} 
+          .column.large-1.small-6
+            %input{type: "text", placeholder: "Guests"}   
+          .column.large-2
+            %input.button.postfix{type: "submit", value: "Search"}           
+        

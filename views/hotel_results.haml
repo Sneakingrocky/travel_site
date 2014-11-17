@@ -1,0 +1,31 @@
+.row
+  .column.large-3.position-right
+    %select{type: "select"}
+      %option{value: "Price"} Price (low to high)
+      %option{value: "Price"} Price (high to low)
+
+- 5.times do
+  .row.collapse
+    .flight
+      .row 
+    
+        .column.large-2
+          %img{src: "/img/Westin_seattle.png"}
+          .Reviews 4/5 See Reviews
+          .hotel-price 
+            %strong $179/night
+        .column.large-7
+          .hotel-name
+            Best hotel in Seattle
+          .hotel-info 
+            Air-conditioned 
+            Airport shuttle 
+            Fitness center 
+            Internet Meeting/Banquet facilities 
+            No smoking 
+            Parking Pool  
+            Wheelchair accessible 
+            WiFi
+        .column.large-3
+          %input.button.postfix{type: "submit", value: "Book Hotel"}
+                      

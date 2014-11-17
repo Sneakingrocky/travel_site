@@ -5,66 +5,28 @@
 
 /* line 5, ../../views/stylesheets/main.scss */
 #nav.top-bar {
-  left: 0;
-  right: 0;
   z-index: 100;
-  position: absolute;
   background: rgba(113, 176, 149, 0.5);
   color: black;
 }
-/* line 12, ../../views/stylesheets/main.scss */
+/* line 10, ../../views/stylesheets/main.scss */
 #nav.top-bar li, #nav.top-bar li a {
   background: none;
 }
-/* line 15, ../../views/stylesheets/main.scss */
+/* line 14, ../../views/stylesheets/main.scss */
 #nav.top-bar li:hover {
   background: rgba(113, 176, 149, 0.6);
 }
 
 /* line 21, ../../views/stylesheets/main.scss */
-.flight-form {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  color: black;
-  padding: 10px;
-  padding-top: 30px;
-  background: rgba(26, 53, 44, 0.6);
-}
-/* line 30, ../../views/stylesheets/main.scss */
-.flight-form h2 {
-  top: -60px;
-  position: absolute;
-  color: white;
-}
-
-/* line 37, ../../views/stylesheets/main.scss */
-h2.green {
-  color: #71b095;
-}
-
-/* line 42, ../../views/stylesheets/main.scss */
-.deal {
-  width: 100%;
-  height: 200px;
-  background: #000;
-  margin-bottom: 20px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 51, ../../views/stylesheets/main.scss */
 #hero {
   background-image: url("/img/Hero.png");
   width: 100%;
   height: 600px;
   position: relative;
+  margin-top: -45px;
 }
-/* line 57, ../../views/stylesheets/main.scss */
+/* line 28, ../../views/stylesheets/main.scss */
 #hero h1 {
   text-align: center;
   font-size: 110px;
@@ -73,7 +35,210 @@ h2.green {
   margin: 0;
 }
 
-/* line 66, ../../views/stylesheets/main.scss */
+/* line 37, ../../views/stylesheets/main.scss */
+.flight-form {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+  background: rgba(26, 53, 44, 0.6);
+}
+/* line 47, ../../views/stylesheets/main.scss */
+.flight-form h2 {
+  top: -60px;
+  position: absolute;
+  color: white;
+}
+/* line 53, ../../views/stylesheets/main.scss */
+.flight-form a {
+  color: white;
+}
+/* line 56, ../../views/stylesheets/main.scss */
+.flight-form a:hover {
+  color: #c8c8c8;
+}
+
+/* line 62, ../../views/stylesheets/main.scss */
+.deal {
+  width: 100%;
+  background: #1a212c;
+  margin-bottom: 20px;
+}
+/* line 67, ../../views/stylesheets/main.scss */
+.deal:hover img {
+  opacity: .4;
+}
+/* line 71, ../../views/stylesheets/main.scss */
+.deal img {
+  width: 100%;
+  opacity: .7;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+/* line 78, ../../views/stylesheets/main.scss */
+.deal .place {
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+}
+
+/* line 89, ../../views/stylesheets/main.scss */
+.deal .price {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+}
+
+/* line 100, ../../views/stylesheets/main.scss */
+.deals-form-page {
+  margin-bottom: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+/* line 110, ../../views/stylesheets/main.scss */
+.flight-form-page {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+}
+/* line 118, ../../views/stylesheets/main.scss */
+.flight-form-page a:hover {
+  color: #c8c8c8;
+}
+
+/* line 123, ../../views/stylesheets/main.scss */
+.flight .airline {
+  color: gray;
+  font-size: 17px;
+}
+
+/* line 128, ../../views/stylesheets/main.scss */
+.flight .ticket-price {
+  color: #71b095;
+  font-size: 20px;
+}
+
+/* line 134, ../../views/stylesheets/main.scss */
+.flight {
+  border: 1px solid #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 140, ../../views/stylesheets/main.scss */
+.hotel-price {
+  color: #71b095;
+  font-size: 20px;
+}
+
+/* line 145, ../../views/stylesheets/main.scss */
+.hotel-name {
+  color: #71b095;
+  font-size: 25px;
+}
+
+/* line 150, ../../views/stylesheets/main.scss */
+.hotel-info {
+  color: gray;
+  font-size: 17px;
+}
+
+/* line 156, ../../views/stylesheets/main.scss */
+.cars-form-page a:hover {
+  color: #c8c8c8;
+}
+
+/* line 161, ../../views/stylesheets/main.scss */
+.lighter {
+  color: gray;
+}
+
+/* line 165, ../../views/stylesheets/main.scss */
+.green {
+  color: #71b095;
+}
+
+/* line 169, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
+}
+
+/* line 173, ../../views/stylesheets/main.scss */
+.position-right {
+  float: right;
+  padding-top: 20px;
+}
+
+/* line 178, ../../views/stylesheets/main.scss */
+.margin-bottom {
+  margin-bottom: 7px;
+}
+
+/* line 182, ../../views/stylesheets/main.scss */
+.extra-margin-header {
+  margin-top: 50px;
+}
+
+/* line 186, ../../views/stylesheets/main.scss */
+.padding-right {
+  padding-right: 15px;
+}
+
+/* line 191, ../../views/stylesheets/main.scss */
+.footer {
+  margin-top: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #71b095;
+  color: white;
+  text-align: center;
+}
+/* line 199, ../../views/stylesheets/main.scss */
+.footer a {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+/* line 204, ../../views/stylesheets/main.scss */
+.footer a:hover {
+  color: #e6e6e6;
+}
+
+/* line 213, ../../views/stylesheets/main.scss */
+.social-media img {
+  padding-top: 10px;
+  padding-left: 4px;
+  position: relative;
+  -webkit-transition: top 0.1s;
+  -moz-transition: top 0.1s;
+  -o-transition: top 0.1s;
+  transition: top 0.1s;
+  top: 0;
+}
+/* line 221, ../../views/stylesheets/main.scss */
+.social-media a:hover img {
+  top: -5px;
 }

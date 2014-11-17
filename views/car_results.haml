@@ -1,0 +1,28 @@
+.row
+  .column.large-3.position-right
+    %select{type: "select"}
+      %option{value: "Price"} Price (low to high)
+      %option{value: "Price"} Price (high to low)
+
+- 5.times do
+  .row.collapse
+    .flight
+      .row 
+    
+        .column.large-2
+          %img{src: "/img/Compact_car.png"}
+          .car-price 
+            %strong $10/day
+        .column.large-7
+          .car-info 
+            Unlimited Mileage 
+            5 adults
+            2 Bags
+            Automatic
+            Air Conditioning
+          .car-info 
+            Compact
+        .column.large-3
+          %input.button.postfix{type: "submit", value: "Select Vehicle"}
+                      
+
