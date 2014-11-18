@@ -130,84 +130,150 @@
 }
 
 /* line 123, ../../views/stylesheets/main.scss */
+.flight-info .left {
+  padding: 0 5px;
+}
+
+/* line 127, ../../views/stylesheets/main.scss */
 .flight .airline {
   color: gray;
   font-size: 17px;
 }
 
-/* line 128, ../../views/stylesheets/main.scss */
+/* line 132, ../../views/stylesheets/main.scss */
 .flight .ticket-price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 134, ../../views/stylesheets/main.scss */
+/* line 138, ../../views/stylesheets/main.scss */
 .flight {
   border: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 140, ../../views/stylesheets/main.scss */
+/* line 144, ../../views/stylesheets/main.scss */
 .hotel-price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 145, ../../views/stylesheets/main.scss */
+/* line 149, ../../views/stylesheets/main.scss */
 .hotel-name {
   color: #71b095;
   font-size: 25px;
 }
 
-/* line 150, ../../views/stylesheets/main.scss */
+/* line 154, ../../views/stylesheets/main.scss */
 .hotel-info {
   color: gray;
   font-size: 17px;
 }
+/* line 158, ../../views/stylesheets/main.scss */
+.hotel-info ul {
+  margin: 0;
+}
+/* line 162, ../../views/stylesheets/main.scss */
+.hotel-info li {
+  list-style: none;
+}
 
-/* line 156, ../../views/stylesheets/main.scss */
+/* line 168, ../../views/stylesheets/main.scss */
 .cars-form-page a:hover {
   color: #c8c8c8;
 }
 
-/* line 161, ../../views/stylesheets/main.scss */
+/* line 173, ../../views/stylesheets/main.scss */
+.car-info {
+  color: gray;
+  font-size: 17px;
+}
+/* line 177, ../../views/stylesheets/main.scss */
+.car-info ul {
+  margin: 0;
+}
+/* line 181, ../../views/stylesheets/main.scss */
+.car-info li {
+  list-style: none;
+}
+
+/* line 186, ../../views/stylesheets/main.scss */
+.car-price {
+  color: #71b095;
+  font-size: 20px;
+}
+
+/* line 191, ../../views/stylesheets/main.scss */
+.car-name {
+  color: #71b095;
+  font-size: 25px;
+}
+
+/* line 196, ../../views/stylesheets/main.scss */
+.book-button {
+  margin: 10px 0 0 0;
+}
+@media (min-width: 1025px) {
+  /* line 196, ../../views/stylesheets/main.scss */
+  .book-button {
+    margin-top: 0px;
+  }
+}
+
+/* line 204, ../../views/stylesheets/main.scss */
 .lighter {
   color: gray;
 }
 
-/* line 165, ../../views/stylesheets/main.scss */
+/* line 208, ../../views/stylesheets/main.scss */
 .green {
   color: #71b095;
 }
 
-/* line 169, ../../views/stylesheets/main.scss */
+/* line 212, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-/* line 173, ../../views/stylesheets/main.scss */
+/* line 216, ../../views/stylesheets/main.scss */
 .position-right {
   float: right;
   padding-top: 20px;
 }
 
-/* line 178, ../../views/stylesheets/main.scss */
+/* line 221, ../../views/stylesheets/main.scss */
 .margin-bottom {
   margin-bottom: 7px;
 }
 
-/* line 182, ../../views/stylesheets/main.scss */
+/* line 225, ../../views/stylesheets/main.scss */
 .extra-margin-header {
   margin-top: 50px;
 }
 
-/* line 186, ../../views/stylesheets/main.scss */
+/* line 229, ../../views/stylesheets/main.scss */
 .padding-right {
   padding-right: 15px;
 }
 
-/* line 191, ../../views/stylesheets/main.scss */
+/* line 233, ../../views/stylesheets/main.scss */
+.padding-left {
+  padding-left: 15px;
+}
+
+/* line 237, ../../views/stylesheets/main.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 241, ../../views/stylesheets/main.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 246, ../../views/stylesheets/main.scss */
 .footer {
   margin-top: 35px;
   padding-top: 20px;
@@ -216,18 +282,18 @@
   color: white;
   text-align: center;
 }
-/* line 199, ../../views/stylesheets/main.scss */
+/* line 254, ../../views/stylesheets/main.scss */
 .footer a {
   color: white;
   padding-bottom: 30px;
   font-size: 14px;
 }
-/* line 204, ../../views/stylesheets/main.scss */
+/* line 259, ../../views/stylesheets/main.scss */
 .footer a:hover {
   color: #e6e6e6;
 }
 
-/* line 213, ../../views/stylesheets/main.scss */
+/* line 268, ../../views/stylesheets/main.scss */
 .social-media img {
   padding-top: 10px;
   padding-left: 4px;
@@ -238,7 +304,7 @@
   transition: top 0.1s;
   top: 0;
 }
-/* line 221, ../../views/stylesheets/main.scss */
+/* line 276, ../../views/stylesheets/main.scss */
 .social-media a:hover img {
   top: -5px;
 }

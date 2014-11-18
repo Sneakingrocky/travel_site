@@ -18,20 +18,33 @@
           .airline United
           .ticket-price 
             %strong $1215
-        .column.large-7
-          .flight-info 
-            %strong Depart 
-            7:30a ORD --> 
-            %strong Arrive 
-            10:02p SEA 
-            %span.lighter 4h 32m nonstop
-          .flight-info 
-            %strong Depart 
-            6:15a SEA --> 
-            %strong Arrive 
-            11:56p ORD
-            %span.lighter 3h 41m nonstop
+        .column.large-7.flight-info
+          .clearfix
+            .left
+              %div
+                %strong
+                  .hide-for-small-only Depart 
+                7:30a ORD
+              %div
+                %strong
+                  .hide-for-small-only Depart 
+                6:15a SEA 
+            .left
+              %div &#8674
+              %div &#8674
+            .left
+              %div
+                %strong
+                  .hide-for-small-only Arrive 
+                10:02p SEA
+              %div
+                %strong
+                  .hide-for-small-only Arrive 
+                11:56p ORD
+            .left
+              .lighter 4h 32m nonstop
+              .lighter 3h 41m nonstop
         .column.large-3
-          %input.button.postfix{type: "submit", value: "Book Flight"}
+          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
                       
 

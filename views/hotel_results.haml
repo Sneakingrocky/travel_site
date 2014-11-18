@@ -17,15 +17,20 @@
         .column.large-7
           .hotel-name
             Best hotel in Seattle
-          .hotel-info 
-            Air-conditioned 
-            Airport shuttle 
-            Fitness center 
-            Internet Meeting/Banquet facilities 
-            No smoking 
-            Parking Pool  
-            Wheelchair accessible 
-            WiFi
+          .hotel-info
+            .row.collapse
+              .column.large-6
+                %ul
+                  %li Air-conditioned 
+                  %li Airport shuttle 
+                  %li Fitness center
+                  %li Pool 
+              .column.large-6
+                %ul 
+                  %li No smoking 
+                  %li Parking 
+                  %li Wheelchair accessible 
+                  %li WiFi          
         .column.large-3
-          %input.button.postfix{type: "submit", value: "Book Hotel"}
+          %input.book-button.button.postfix{type: "submit", value: "Book Hotel"}
                       

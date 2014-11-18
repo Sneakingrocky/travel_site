@@ -120,6 +120,10 @@
   } 
 }
 
+.flight-info .left {
+  padding: 0 5px;
+}
+
 .flight .airline {
   color: gray;
   font-size: 17px;
@@ -150,12 +154,51 @@
 .hotel-info {
   color: gray;
   font-size: 17px;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
 }
 
 .cars-form-page {
   a:hover {
     color: rgb(200, 200, 200);
   } 
+}
+
+.car-info {
+  color: gray;
+  font-size: 17px;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+.car-price {
+  color: rgb(113, 176, 149);
+  font-size: 20px;
+}
+
+.car-name {
+  color: rgb(113, 176, 149);
+  font-size: 25px;
+}
+
+.book-button {
+  margin: 10px 0 0 0;
+
+  @media (min-width: 1025px) {
+    margin-top: 0px;
+  }
 }
 
 .lighter {
@@ -185,6 +228,18 @@
 
 .padding-right {
   padding-right: 15px;
+}
+
+.padding-left {
+  padding-left: 15px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clearfix {
+  @include clearfix;
 }
 
 
