@@ -78,8 +78,8 @@
 .deal .place {
   position: absolute;
   top: 50%;
-  margin-top: -40px;
-  font-size: 30px;
+  margin-top: -35px;
+  font-size: 25px;
   text-align: center;
   color: white;
   left: 0;
@@ -98,7 +98,6 @@
 
 
 .deals-form-page {
-  margin-bottom: 80px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -220,6 +219,10 @@
 
 .margin-bottom {
   margin-bottom: 7px;
+}
+
+.extra-margin-bottom {
+  margin-bottom: 80px;
 }
 
 .extra-margin-header {

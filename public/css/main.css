@@ -85,8 +85,8 @@
 .deal .place {
   position: absolute;
   top: 50%;
-  margin-top: -40px;
-  font-size: 30px;
+  margin-top: -35px;
+  font-size: 25px;
   text-align: center;
   color: white;
   left: 0;
@@ -106,7 +106,6 @@
 
 /* line 100, ../../views/stylesheets/main.scss */
 .deals-form-page {
-  margin-bottom: 80px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -115,7 +114,7 @@
   padding-top: 20px;
 }
 
-/* line 110, ../../views/stylesheets/main.scss */
+/* line 109, ../../views/stylesheets/main.scss */
 .flight-form-page {
   bottom: 0;
   left: 0;
@@ -124,156 +123,161 @@
   padding: 10px;
   padding-top: 20px;
 }
-/* line 118, ../../views/stylesheets/main.scss */
+/* line 117, ../../views/stylesheets/main.scss */
 .flight-form-page a:hover {
   color: #c8c8c8;
 }
 
-/* line 123, ../../views/stylesheets/main.scss */
+/* line 122, ../../views/stylesheets/main.scss */
 .flight-info .left {
   padding: 0 5px;
 }
 
-/* line 127, ../../views/stylesheets/main.scss */
+/* line 126, ../../views/stylesheets/main.scss */
 .flight .airline {
   color: gray;
   font-size: 17px;
 }
 
-/* line 132, ../../views/stylesheets/main.scss */
+/* line 131, ../../views/stylesheets/main.scss */
 .flight .ticket-price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 138, ../../views/stylesheets/main.scss */
+/* line 137, ../../views/stylesheets/main.scss */
 .flight {
   border: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 144, ../../views/stylesheets/main.scss */
+/* line 143, ../../views/stylesheets/main.scss */
 .hotel-price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 149, ../../views/stylesheets/main.scss */
+/* line 148, ../../views/stylesheets/main.scss */
 .hotel-name {
   color: #71b095;
   font-size: 25px;
 }
 
-/* line 154, ../../views/stylesheets/main.scss */
+/* line 153, ../../views/stylesheets/main.scss */
 .hotel-info {
   color: gray;
   font-size: 17px;
 }
-/* line 158, ../../views/stylesheets/main.scss */
+/* line 157, ../../views/stylesheets/main.scss */
 .hotel-info ul {
   margin: 0;
 }
-/* line 162, ../../views/stylesheets/main.scss */
+/* line 161, ../../views/stylesheets/main.scss */
 .hotel-info li {
   list-style: none;
 }
 
-/* line 168, ../../views/stylesheets/main.scss */
+/* line 167, ../../views/stylesheets/main.scss */
 .cars-form-page a:hover {
   color: #c8c8c8;
 }
 
-/* line 173, ../../views/stylesheets/main.scss */
+/* line 172, ../../views/stylesheets/main.scss */
 .car-info {
   color: gray;
   font-size: 17px;
 }
-/* line 177, ../../views/stylesheets/main.scss */
+/* line 176, ../../views/stylesheets/main.scss */
 .car-info ul {
   margin: 0;
 }
-/* line 181, ../../views/stylesheets/main.scss */
+/* line 180, ../../views/stylesheets/main.scss */
 .car-info li {
   list-style: none;
 }
 
-/* line 186, ../../views/stylesheets/main.scss */
+/* line 185, ../../views/stylesheets/main.scss */
 .car-price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 191, ../../views/stylesheets/main.scss */
+/* line 190, ../../views/stylesheets/main.scss */
 .car-name {
   color: #71b095;
   font-size: 25px;
 }
 
-/* line 196, ../../views/stylesheets/main.scss */
+/* line 195, ../../views/stylesheets/main.scss */
 .book-button {
   margin: 10px 0 0 0;
 }
 @media (min-width: 1025px) {
-  /* line 196, ../../views/stylesheets/main.scss */
+  /* line 195, ../../views/stylesheets/main.scss */
   .book-button {
     margin-top: 0px;
   }
 }
 
-/* line 204, ../../views/stylesheets/main.scss */
+/* line 203, ../../views/stylesheets/main.scss */
 .lighter {
   color: gray;
 }
 
-/* line 208, ../../views/stylesheets/main.scss */
+/* line 207, ../../views/stylesheets/main.scss */
 .green {
   color: #71b095;
 }
 
-/* line 212, ../../views/stylesheets/main.scss */
+/* line 211, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-/* line 216, ../../views/stylesheets/main.scss */
+/* line 215, ../../views/stylesheets/main.scss */
 .position-right {
   float: right;
   padding-top: 20px;
 }
 
-/* line 221, ../../views/stylesheets/main.scss */
+/* line 220, ../../views/stylesheets/main.scss */
 .margin-bottom {
   margin-bottom: 7px;
 }
 
-/* line 225, ../../views/stylesheets/main.scss */
+/* line 224, ../../views/stylesheets/main.scss */
+.extra-margin-bottom {
+  margin-bottom: 80px;
+}
+
+/* line 228, ../../views/stylesheets/main.scss */
 .extra-margin-header {
   margin-top: 50px;
 }
 
-/* line 229, ../../views/stylesheets/main.scss */
+/* line 232, ../../views/stylesheets/main.scss */
 .padding-right {
   padding-right: 15px;
 }
 
-/* line 233, ../../views/stylesheets/main.scss */
+/* line 236, ../../views/stylesheets/main.scss */
 .padding-left {
   padding-left: 15px;
 }
 
-/* line 237, ../../views/stylesheets/main.scss */
+/* line 240, ../../views/stylesheets/main.scss */
 .pull-left {
   float: left;
 }
 
-/* line 241, ../../views/stylesheets/main.scss */
+/* line 244, ../../views/stylesheets/main.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 246, ../../views/stylesheets/main.scss */
+/* line 249, ../../views/stylesheets/main.scss */
 .footer {
   margin-top: 35px;
   padding-top: 20px;
@@ -282,18 +286,18 @@
   color: white;
   text-align: center;
 }
-/* line 254, ../../views/stylesheets/main.scss */
+/* line 257, ../../views/stylesheets/main.scss */
 .footer a {
   color: white;
   padding-bottom: 30px;
   font-size: 14px;
 }
-/* line 259, ../../views/stylesheets/main.scss */
+/* line 262, ../../views/stylesheets/main.scss */
 .footer a:hover {
   color: #e6e6e6;
 }
 
-/* line 268, ../../views/stylesheets/main.scss */
+/* line 271, ../../views/stylesheets/main.scss */
 .social-media img {
   padding-top: 10px;
   padding-left: 4px;
@@ -304,7 +308,7 @@
   transition: top 0.1s;
   top: 0;
 }
-/* line 276, ../../views/stylesheets/main.scss */
+/* line 279, ../../views/stylesheets/main.scss */
 .social-media a:hover img {
   top: -5px;
 }
