@@ -4,33 +4,31 @@
       %option{value: "Price"} Price (low to high)
       %option{value: "Price"} Price (high to low)
 
-- 5.times do
-  .row.collapse
-    .flight
-      .row 
-    
-        .column.large-2
-          %img{src: "/img/Westin_seattle.png"}
-          .Reviews 4/5 See Reviews
-          .hotel-price 
-            %strong $179/night
-        .column.large-7
-          .hotel-name
-            Best hotel in Seattle
-          .hotel-info
-            .row.collapse
-              .column.large-6
-                %ul
-                  %li Air-conditioned 
-                  %li Airport shuttle 
-                  %li Fitness center
-                  %li Pool 
-              .column.large-6
-                %ul 
-                  %li No smoking 
-                  %li Parking 
-                  %li Wheelchair accessible 
-                  %li WiFi          
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Hotel"}
-                      
+.row.collapse
+  .result-boxes
+    .row   
+      .column.large-2
+        %img{src: "/img/Westin_seattle.png"}
+        .Reviews.lighter 4/5 See Reviews
+        .price 
+          %strong $179/night
+      .column.large-7
+        .name
+          Best hotel in Seattle
+        .info.no-list-style
+          .row.collapse
+            .column.large-6
+              %ul
+                %li Air-conditioned 
+                %li Airport shuttle 
+                %li Fitness center
+                %li Pool 
+            .column.large-6
+              %ul 
+                %li No smoking 
+                %li Parking 
+                %li Wheelchair accessible 
+                %li WiFi          
+      .column.large-3
+        %input.book-button.button.postfix{type: "submit", value: "Book Hotel"}
+                 

@@ -4,21 +4,26 @@
 }
 
 /* line 5, ../../views/stylesheets/main.scss */
+body, h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 9, ../../views/stylesheets/main.scss */
 #nav.top-bar {
   z-index: 100;
   background: rgba(113, 176, 149, 0.5);
   color: black;
 }
-/* line 10, ../../views/stylesheets/main.scss */
+/* line 14, ../../views/stylesheets/main.scss */
 #nav.top-bar li, #nav.top-bar li a {
   background: none;
 }
-/* line 14, ../../views/stylesheets/main.scss */
+/* line 18, ../../views/stylesheets/main.scss */
 #nav.top-bar li:hover {
   background: rgba(113, 176, 149, 0.6);
 }
 
-/* line 21, ../../views/stylesheets/main.scss */
+/* line 25, ../../views/stylesheets/main.scss */
 #hero {
   background-image: url("/img/Hero.png");
   width: 100%;
@@ -26,7 +31,7 @@
   position: relative;
   margin-top: -45px;
 }
-/* line 28, ../../views/stylesheets/main.scss */
+/* line 32, ../../views/stylesheets/main.scss */
 #hero h1 {
   text-align: center;
   font-size: 110px;
@@ -35,7 +40,7 @@
   margin: 0;
 }
 
-/* line 37, ../../views/stylesheets/main.scss */
+/* line 41, ../../views/stylesheets/main.scss */
 .flight-form {
   bottom: 0;
   left: 0;
@@ -46,33 +51,33 @@
   padding-top: 20px;
   background: rgba(26, 53, 44, 0.6);
 }
-/* line 47, ../../views/stylesheets/main.scss */
+/* line 51, ../../views/stylesheets/main.scss */
 .flight-form h2 {
   top: -60px;
   position: absolute;
   color: white;
 }
-/* line 53, ../../views/stylesheets/main.scss */
+/* line 57, ../../views/stylesheets/main.scss */
 .flight-form a {
   color: white;
 }
-/* line 56, ../../views/stylesheets/main.scss */
+/* line 60, ../../views/stylesheets/main.scss */
 .flight-form a:hover {
   color: #c8c8c8;
 }
 
-/* line 62, ../../views/stylesheets/main.scss */
-.deal {
+/* line 66, ../../views/stylesheets/main.scss */
+.image-collage {
   width: 100%;
   background: #1a212c;
   margin-bottom: 20px;
 }
-/* line 67, ../../views/stylesheets/main.scss */
-.deal:hover img {
+/* line 71, ../../views/stylesheets/main.scss */
+.image-collage:hover img {
   opacity: .4;
 }
-/* line 71, ../../views/stylesheets/main.scss */
-.deal img {
+/* line 75, ../../views/stylesheets/main.scss */
+.image-collage img {
   width: 100%;
   opacity: .7;
   -webkit-transition: opacity 0.5s;
@@ -81,8 +86,8 @@
   transition: opacity 0.5s;
 }
 
-/* line 78, ../../views/stylesheets/main.scss */
-.deal .place {
+/* line 82, ../../views/stylesheets/main.scss */
+.image-collage .place {
   position: absolute;
   top: 50%;
   margin-top: -35px;
@@ -93,8 +98,8 @@
   right: 0;
 }
 
-/* line 89, ../../views/stylesheets/main.scss */
-.deal .price {
+/* line 93, ../../views/stylesheets/main.scss */
+.image-collage .price {
   position: absolute;
   top: 50%;
   font-size: 20px;
@@ -104,8 +109,8 @@
   right: 0;
 }
 
-/* line 100, ../../views/stylesheets/main.scss */
-.deals-form-page {
+/* line 104, ../../views/stylesheets/main.scss */
+.form-page {
   bottom: 0;
   left: 0;
   right: 0;
@@ -114,170 +119,114 @@
   padding-top: 20px;
 }
 
-/* line 109, ../../views/stylesheets/main.scss */
-.flight-form-page {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: black;
-  padding: 10px;
-  padding-top: 20px;
-}
-/* line 117, ../../views/stylesheets/main.scss */
-.flight-form-page a:hover {
-  color: #c8c8c8;
-}
-
-/* line 122, ../../views/stylesheets/main.scss */
+/* line 113, ../../views/stylesheets/main.scss */
 .flight-info .left {
   padding: 0 5px;
 }
 
-/* line 126, ../../views/stylesheets/main.scss */
-.flight .airline {
-  color: gray;
-  font-size: 17px;
-}
-
-/* line 131, ../../views/stylesheets/main.scss */
-.flight .ticket-price {
-  color: #71b095;
-  font-size: 20px;
-}
-
-/* line 137, ../../views/stylesheets/main.scss */
-.flight {
+/* line 117, ../../views/stylesheets/main.scss */
+.result-boxes {
   border: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 143, ../../views/stylesheets/main.scss */
-.hotel-price {
-  color: #71b095;
-  font-size: 20px;
-}
-
-/* line 148, ../../views/stylesheets/main.scss */
-.hotel-name {
+/* line 124, ../../views/stylesheets/main.scss */
+.name {
   color: #71b095;
   font-size: 25px;
 }
 
-/* line 153, ../../views/stylesheets/main.scss */
-.hotel-info {
-  color: gray;
-  font-size: 17px;
-}
-/* line 157, ../../views/stylesheets/main.scss */
-.hotel-info ul {
-  margin: 0;
-}
-/* line 161, ../../views/stylesheets/main.scss */
-.hotel-info li {
-  list-style: none;
-}
-
-/* line 167, ../../views/stylesheets/main.scss */
-.cars-form-page a:hover {
-  color: #c8c8c8;
-}
-
-/* line 172, ../../views/stylesheets/main.scss */
-.car-info {
-  color: gray;
-  font-size: 17px;
-}
-/* line 176, ../../views/stylesheets/main.scss */
-.car-info ul {
-  margin: 0;
-}
-/* line 180, ../../views/stylesheets/main.scss */
-.car-info li {
-  list-style: none;
-}
-
-/* line 185, ../../views/stylesheets/main.scss */
-.car-price {
+/* line 129, ../../views/stylesheets/main.scss */
+.price {
   color: #71b095;
   font-size: 20px;
 }
 
-/* line 190, ../../views/stylesheets/main.scss */
-.car-name {
-  color: #71b095;
-  font-size: 25px;
+/* line 134, ../../views/stylesheets/main.scss */
+.info {
+  color: gray;
+  font-size: 17px;
 }
 
-/* line 195, ../../views/stylesheets/main.scss */
+/* line 139, ../../views/stylesheets/main.scss */
 .book-button {
   margin: 10px 0 0 0;
 }
 @media (min-width: 1025px) {
-  /* line 195, ../../views/stylesheets/main.scss */
+  /* line 139, ../../views/stylesheets/main.scss */
   .book-button {
     margin-top: 0px;
   }
 }
 
-/* line 203, ../../views/stylesheets/main.scss */
+/* line 147, ../../views/stylesheets/main.scss */
 .lighter {
   color: gray;
 }
 
-/* line 207, ../../views/stylesheets/main.scss */
+/* line 151, ../../views/stylesheets/main.scss */
 .green {
   color: #71b095;
 }
 
-/* line 211, ../../views/stylesheets/main.scss */
+/* line 155, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-/* line 215, ../../views/stylesheets/main.scss */
+/* line 159, ../../views/stylesheets/main.scss */
 .position-right {
   float: right;
   padding-top: 20px;
 }
 
-/* line 220, ../../views/stylesheets/main.scss */
+/* line 164, ../../views/stylesheets/main.scss */
 .margin-bottom {
   margin-bottom: 7px;
 }
 
-/* line 224, ../../views/stylesheets/main.scss */
+/* line 168, ../../views/stylesheets/main.scss */
 .extra-margin-bottom {
   margin-bottom: 80px;
 }
 
-/* line 228, ../../views/stylesheets/main.scss */
+/* line 172, ../../views/stylesheets/main.scss */
 .extra-margin-header {
   margin-top: 50px;
 }
 
-/* line 232, ../../views/stylesheets/main.scss */
+/* line 176, ../../views/stylesheets/main.scss */
 .padding-right {
   padding-right: 15px;
 }
 
-/* line 236, ../../views/stylesheets/main.scss */
+/* line 180, ../../views/stylesheets/main.scss */
 .padding-left {
   padding-left: 15px;
 }
 
-/* line 240, ../../views/stylesheets/main.scss */
+/* line 184, ../../views/stylesheets/main.scss */
 .pull-left {
   float: left;
 }
 
-/* line 244, ../../views/stylesheets/main.scss */
+/* line 189, ../../views/stylesheets/main.scss */
+.no-list-style ul {
+  margin: 0;
+}
+/* line 193, ../../views/stylesheets/main.scss */
+.no-list-style li {
+  list-style: none;
+}
+
+/* line 198, ../../views/stylesheets/main.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 249, ../../views/stylesheets/main.scss */
+/* line 203, ../../views/stylesheets/main.scss */
 .footer {
   margin-top: 35px;
   padding-top: 20px;
@@ -286,18 +235,18 @@
   color: white;
   text-align: center;
 }
-/* line 257, ../../views/stylesheets/main.scss */
+/* line 211, ../../views/stylesheets/main.scss */
 .footer a {
   color: white;
   padding-bottom: 30px;
   font-size: 14px;
 }
-/* line 262, ../../views/stylesheets/main.scss */
+/* line 216, ../../views/stylesheets/main.scss */
 .footer a:hover {
   color: #e6e6e6;
 }
 
-/* line 271, ../../views/stylesheets/main.scss */
+/* line 225, ../../views/stylesheets/main.scss */
 .social-media img {
   padding-top: 10px;
   padding-left: 4px;
@@ -308,7 +257,7 @@
   transition: top 0.1s;
   top: 0;
 }
-/* line 279, ../../views/stylesheets/main.scss */
+/* line 233, ../../views/stylesheets/main.scss */
 .social-media a:hover img {
   top: -5px;
 }
