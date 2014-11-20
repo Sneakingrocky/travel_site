@@ -120,42 +120,41 @@ body, h1, h2, h3 {
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 100px;
-  border-bottom: 1px solid #e7e7e7;
 }
 
-/* line 118, ../../views/stylesheets/main.scss */
+/* line 117, ../../views/stylesheets/main.scss */
 .flight-info .left {
   padding: 0 5px;
 }
 
-/* line 122, ../../views/stylesheets/main.scss */
+/* line 121, ../../views/stylesheets/main.scss */
 .actions {
   margin-top: 20px;
 }
 
-/* line 126, ../../views/stylesheets/main.scss */
+/* line 125, ../../views/stylesheets/main.scss */
 .result-boxes {
   border-bottom: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 @media (min-width: 1025px) {
-  /* line 131, ../../views/stylesheets/main.scss */
+  /* line 130, ../../views/stylesheets/main.scss */
   .result-boxes .primary-info {
     text-align: center;
   }
 }
-/* line 137, ../../views/stylesheets/main.scss */
+/* line 136, ../../views/stylesheets/main.scss */
 .result-boxes .logo {
   display: inline-block;
   text-align: center;
 }
-/* line 142, ../../views/stylesheets/main.scss */
+/* line 141, ../../views/stylesheets/main.scss */
 .result-boxes .name {
   color: #4a4a4a;
   font-size: 25px;
 }
-/* line 147, ../../views/stylesheets/main.scss */
+/* line 146, ../../views/stylesheets/main.scss */
 .result-boxes .price {
   color: #71b095;
   font-size: 35px;
@@ -164,115 +163,125 @@ body, h1, h2, h3 {
   right: 15px;
 }
 @media (min-width: 1025px) {
-  /* line 147, ../../views/stylesheets/main.scss */
+  /* line 146, ../../views/stylesheets/main.scss */
   .result-boxes .price {
     position: relative;
     right: 0;
     font-size: 26px;
   }
 }
-/* line 161, ../../views/stylesheets/main.scss */
+/* line 160, ../../views/stylesheets/main.scss */
 .result-boxes .info {
   color: gray;
   font-size: 17px;
 }
-/* line 166, ../../views/stylesheets/main.scss */
+/* line 165, ../../views/stylesheets/main.scss */
 .result-boxes .book-button {
   margin: 10px 0 0 0;
 }
 @media (min-width: 1025px) {
-  /* line 166, ../../views/stylesheets/main.scss */
+  /* line 165, ../../views/stylesheets/main.scss */
   .result-boxes .book-button {
     margin-top: 0px;
   }
 }
 
-/* line 175, ../../views/stylesheets/main.scss */
+/* line 174, ../../views/stylesheets/main.scss */
 .lighter {
   color: gray;
 }
 
-/* line 179, ../../views/stylesheets/main.scss */
+/* line 178, ../../views/stylesheets/main.scss */
 .green {
   color: #71b095;
 }
 
-/* line 183, ../../views/stylesheets/main.scss */
+/* line 182, ../../views/stylesheets/main.scss */
+.off-white-background {
+  background-color: whitesmoke;
+  border-top: 2px solid #e7e7e7;
+}
+
+/* line 187, ../../views/stylesheets/main.scss */
+.page-section {
+  padding: 100px 0;
+}
+
+/* line 191, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-/* line 187, ../../views/stylesheets/main.scss */
+/* line 195, ../../views/stylesheets/main.scss */
 .position-right {
   float: right;
 }
 
-/* line 191, ../../views/stylesheets/main.scss */
+/* line 199, ../../views/stylesheets/main.scss */
 .margin-bottom {
   margin-bottom: 7px;
 }
 
-/* line 195, ../../views/stylesheets/main.scss */
+/* line 203, ../../views/stylesheets/main.scss */
 .extra-margin-bottom {
   margin-bottom: 80px;
 }
 
-/* line 199, ../../views/stylesheets/main.scss */
+/* line 207, ../../views/stylesheets/main.scss */
 .extra-margin-header {
   margin-top: 50px;
 }
 
-/* line 203, ../../views/stylesheets/main.scss */
+/* line 211, ../../views/stylesheets/main.scss */
 .padding-right {
   padding-right: 15px;
 }
 
-/* line 207, ../../views/stylesheets/main.scss */
+/* line 215, ../../views/stylesheets/main.scss */
 .padding-left {
   padding-left: 15px;
 }
 
-/* line 211, ../../views/stylesheets/main.scss */
+/* line 219, ../../views/stylesheets/main.scss */
 .pull-left {
   float: left;
 }
 
-/* line 216, ../../views/stylesheets/main.scss */
+/* line 224, ../../views/stylesheets/main.scss */
 .no-list-style ul {
   margin: 0;
 }
-/* line 220, ../../views/stylesheets/main.scss */
+/* line 228, ../../views/stylesheets/main.scss */
 .no-list-style li {
   list-style: none;
 }
 
-/* line 225, ../../views/stylesheets/main.scss */
+/* line 233, ../../views/stylesheets/main.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 230, ../../views/stylesheets/main.scss */
+/* line 238, ../../views/stylesheets/main.scss */
 .footer {
-  margin-top: 35px;
   padding-top: 20px;
   padding-bottom: 20px;
   background: #71b095;
   color: white;
   text-align: center;
 }
-/* line 238, ../../views/stylesheets/main.scss */
+/* line 245, ../../views/stylesheets/main.scss */
 .footer a {
   color: white;
   padding-bottom: 30px;
   font-size: 14px;
 }
-/* line 243, ../../views/stylesheets/main.scss */
+/* line 250, ../../views/stylesheets/main.scss */
 .footer a:hover {
   color: #e6e6e6;
 }
 
-/* line 252, ../../views/stylesheets/main.scss */
+/* line 259, ../../views/stylesheets/main.scss */
 .social-media img {
   padding-top: 10px;
   padding-left: 4px;
@@ -283,12 +292,12 @@ body, h1, h2, h3 {
   transition: top 0.1s;
   top: 0;
 }
-/* line 260, ../../views/stylesheets/main.scss */
+/* line 267, ../../views/stylesheets/main.scss */
 .social-media a:hover img {
   top: -5px;
 }
 
-/* line 265, ../../views/stylesheets/main.scss */
+/* line 272, ../../views/stylesheets/main.scss */
 .subscript {
   font-size: 0.5em;
 }

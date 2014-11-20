@@ -112,7 +112,6 @@ body, h1, h2, h3 {
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 100px;
-  border-bottom: 1px solid #e7e7e7;
 }
 
 .flight-info .left {
@@ -180,6 +179,15 @@ body, h1, h2, h3 {
   color: rgb(113, 176, 149);
 }
 
+.off-white-background {
+  background-color: whitesmoke;
+  border-top: 2px solid #e7e7e7;
+}
+
+.page-section {
+  padding: 100px 0;
+}
+
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
@@ -228,7 +236,6 @@ body, h1, h2, h3 {
 
 
 .footer {
-  margin-top: 35px;
   padding-top: 20px;
   padding-bottom: 20px;
   background: rgb(113, 176, 149);
