@@ -6,29 +6,25 @@
 /* line 5, ../../views/stylesheets/main.scss */
 body, h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
-}
-
-/* line 9, ../../views/stylesheets/main.scss */
-body {
   color: #4a4a4a;
 }
 
-/* line 13, ../../views/stylesheets/main.scss */
+/* line 11, ../../views/stylesheets/main.scss */
 #nav.top-bar {
   z-index: 100;
   background: rgba(113, 176, 149, 0.5);
   color: black;
 }
-/* line 18, ../../views/stylesheets/main.scss */
+/* line 16, ../../views/stylesheets/main.scss */
 #nav.top-bar li, #nav.top-bar li a {
   background: none;
 }
-/* line 22, ../../views/stylesheets/main.scss */
+/* line 20, ../../views/stylesheets/main.scss */
 #nav.top-bar li:hover {
   background: rgba(113, 176, 149, 0.6);
 }
 
-/* line 29, ../../views/stylesheets/main.scss */
+/* line 27, ../../views/stylesheets/main.scss */
 #hero {
   background-image: url("/img/hero/Hero.png");
   background-size: cover;
@@ -37,7 +33,7 @@ body {
   position: relative;
   margin-top: -45px;
 }
-/* line 37, ../../views/stylesheets/main.scss */
+/* line 35, ../../views/stylesheets/main.scss */
 #hero h1 {
   text-align: center;
   font-size: 110px;
@@ -46,7 +42,7 @@ body {
   margin: 0;
 }
 
-/* line 46, ../../views/stylesheets/main.scss */
+/* line 44, ../../views/stylesheets/main.scss */
 .flight-form {
   bottom: 0;
   left: 0;
@@ -57,32 +53,32 @@ body {
   padding-top: 20px;
   background: rgba(26, 53, 44, 0.6);
 }
-/* line 56, ../../views/stylesheets/main.scss */
+/* line 54, ../../views/stylesheets/main.scss */
 .flight-form h2 {
   top: -60px;
   position: absolute;
   color: white;
 }
-/* line 62, ../../views/stylesheets/main.scss */
+/* line 60, ../../views/stylesheets/main.scss */
 .flight-form a {
   color: white;
 }
-/* line 65, ../../views/stylesheets/main.scss */
+/* line 63, ../../views/stylesheets/main.scss */
 .flight-form a:hover {
   color: #c8c8c8;
 }
 
-/* line 71, ../../views/stylesheets/main.scss */
+/* line 69, ../../views/stylesheets/main.scss */
 .image-collage {
   width: 100%;
   background: #1a212c;
   margin-bottom: 20px;
 }
-/* line 76, ../../views/stylesheets/main.scss */
+/* line 74, ../../views/stylesheets/main.scss */
 .image-collage:hover img {
   opacity: .4;
 }
-/* line 80, ../../views/stylesheets/main.scss */
+/* line 78, ../../views/stylesheets/main.scss */
 .image-collage img {
   width: 100%;
   opacity: .7;
@@ -92,7 +88,7 @@ body {
   transition: opacity 0.5s;
 }
 
-/* line 87, ../../views/stylesheets/main.scss */
+/* line 85, ../../views/stylesheets/main.scss */
 .image-collage .place {
   position: absolute;
   top: 50%;
@@ -104,7 +100,7 @@ body {
   right: 0;
 }
 
-/* line 98, ../../views/stylesheets/main.scss */
+/* line 96, ../../views/stylesheets/main.scss */
 .image-collage .price {
   position: absolute;
   top: 50%;
@@ -115,7 +111,7 @@ body {
   right: 0;
 }
 
-/* line 109, ../../views/stylesheets/main.scss */
+/* line 107, ../../views/stylesheets/main.scss */
 .form-page {
   bottom: 0;
   left: 0;
@@ -127,114 +123,136 @@ body {
   border-bottom: 1px solid #e7e7e7;
 }
 
-/* line 120, ../../views/stylesheets/main.scss */
+/* line 118, ../../views/stylesheets/main.scss */
 .flight-info .left {
   padding: 0 5px;
 }
 
-/* line 124, ../../views/stylesheets/main.scss */
+/* line 122, ../../views/stylesheets/main.scss */
+.actions {
+  margin-top: 20px;
+}
+
+/* line 126, ../../views/stylesheets/main.scss */
 .result-boxes {
   border-bottom: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-/* line 131, ../../views/stylesheets/main.scss */
-.name {
+@media (min-width: 1025px) {
+  /* line 131, ../../views/stylesheets/main.scss */
+  .result-boxes .primary-info {
+    text-align: center;
+  }
+}
+/* line 137, ../../views/stylesheets/main.scss */
+.result-boxes .logo {
+  display: inline-block;
+  text-align: center;
+}
+/* line 142, ../../views/stylesheets/main.scss */
+.result-boxes .name {
   color: #4a4a4a;
   font-size: 25px;
 }
-
-/* line 136, ../../views/stylesheets/main.scss */
-.price {
+/* line 147, ../../views/stylesheets/main.scss */
+.result-boxes .price {
   color: #71b095;
-  font-size: 20px;
+  font-size: 35px;
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
-
-/* line 141, ../../views/stylesheets/main.scss */
-.info {
+@media (min-width: 1025px) {
+  /* line 147, ../../views/stylesheets/main.scss */
+  .result-boxes .price {
+    position: relative;
+    right: 0;
+    font-size: 26px;
+  }
+}
+/* line 161, ../../views/stylesheets/main.scss */
+.result-boxes .info {
   color: gray;
   font-size: 17px;
 }
-
-/* line 146, ../../views/stylesheets/main.scss */
-.book-button {
+/* line 166, ../../views/stylesheets/main.scss */
+.result-boxes .book-button {
   margin: 10px 0 0 0;
 }
 @media (min-width: 1025px) {
-  /* line 146, ../../views/stylesheets/main.scss */
-  .book-button {
+  /* line 166, ../../views/stylesheets/main.scss */
+  .result-boxes .book-button {
     margin-top: 0px;
   }
 }
 
-/* line 154, ../../views/stylesheets/main.scss */
+/* line 175, ../../views/stylesheets/main.scss */
 .lighter {
   color: gray;
 }
 
-/* line 158, ../../views/stylesheets/main.scss */
+/* line 179, ../../views/stylesheets/main.scss */
 .green {
   color: #71b095;
 }
 
-/* line 162, ../../views/stylesheets/main.scss */
+/* line 183, ../../views/stylesheets/main.scss */
 .cursive {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-/* line 166, ../../views/stylesheets/main.scss */
+/* line 187, ../../views/stylesheets/main.scss */
 .position-right {
   float: right;
-  padding-top: 20px;
 }
 
-/* line 171, ../../views/stylesheets/main.scss */
+/* line 191, ../../views/stylesheets/main.scss */
 .margin-bottom {
   margin-bottom: 7px;
 }
 
-/* line 175, ../../views/stylesheets/main.scss */
+/* line 195, ../../views/stylesheets/main.scss */
 .extra-margin-bottom {
   margin-bottom: 80px;
 }
 
-/* line 179, ../../views/stylesheets/main.scss */
+/* line 199, ../../views/stylesheets/main.scss */
 .extra-margin-header {
   margin-top: 50px;
 }
 
-/* line 183, ../../views/stylesheets/main.scss */
+/* line 203, ../../views/stylesheets/main.scss */
 .padding-right {
   padding-right: 15px;
 }
 
-/* line 187, ../../views/stylesheets/main.scss */
+/* line 207, ../../views/stylesheets/main.scss */
 .padding-left {
   padding-left: 15px;
 }
 
-/* line 191, ../../views/stylesheets/main.scss */
+/* line 211, ../../views/stylesheets/main.scss */
 .pull-left {
   float: left;
 }
 
-/* line 196, ../../views/stylesheets/main.scss */
+/* line 216, ../../views/stylesheets/main.scss */
 .no-list-style ul {
   margin: 0;
 }
-/* line 200, ../../views/stylesheets/main.scss */
+/* line 220, ../../views/stylesheets/main.scss */
 .no-list-style li {
   list-style: none;
 }
 
-/* line 205, ../../views/stylesheets/main.scss */
+/* line 225, ../../views/stylesheets/main.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 210, ../../views/stylesheets/main.scss */
+/* line 230, ../../views/stylesheets/main.scss */
 .footer {
   margin-top: 35px;
   padding-top: 20px;
@@ -243,18 +261,18 @@ body {
   color: white;
   text-align: center;
 }
-/* line 218, ../../views/stylesheets/main.scss */
+/* line 238, ../../views/stylesheets/main.scss */
 .footer a {
   color: white;
   padding-bottom: 30px;
   font-size: 14px;
 }
-/* line 223, ../../views/stylesheets/main.scss */
+/* line 243, ../../views/stylesheets/main.scss */
 .footer a:hover {
   color: #e6e6e6;
 }
 
-/* line 232, ../../views/stylesheets/main.scss */
+/* line 252, ../../views/stylesheets/main.scss */
 .social-media img {
   padding-top: 10px;
   padding-left: 4px;
@@ -265,7 +283,12 @@ body {
   transition: top 0.1s;
   top: 0;
 }
-/* line 240, ../../views/stylesheets/main.scss */
+/* line 260, ../../views/stylesheets/main.scss */
 .social-media a:hover img {
   top: -5px;
+}
+
+/* line 265, ../../views/stylesheets/main.scss */
+.subscript {
+  font-size: 0.5em;
 }

@@ -1,23 +1,26 @@
-.row
-  .column.large-3.position-right
-    %select{type: "select"}
-      %option{value: "Price"} Price (low to high)
-      %option{value: "Price"} Price (high to low)
-      %option{value: "Departure"} Departure (Early to Late)}
-      %option{value: "Departure"} Departure (Late to Early)}
-      %option{value: "Duration"} Duration (Shorter to Longer)}
-      %option{value: "Duration"} Duration (Longer to Shorter)}
-
 .row.collapse
   .column
-    %h3.green.extra-margin-header.large-positon-left CHI &#8646 SEA 
-  .row.collapse
+
+    .actions
+      .row
+        .column.small-6.large-3
+          %h3 CHI &#8646 SEA
+        .column.small-6.large-3
+          %select.right{type: "select"}
+            %option{value: "Price"} Price (low to high)
+            %option{value: "Price"} Price (high to low)
+            %option{value: "Departure"} Departure (Early to Late)}
+            %option{value: "Departure"} Departure (Late to Early)}
+            %option{value: "Duration"} Duration (Shorter to Longer)}
+            %option{value: "Duration"} Duration (Longer to Shorter)}
+ 
     .result-boxes
       .row
         
-        .column.large-2
-          %img{src: "/img/logos/United.png"}
-          .airline.lighter United
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/United.png"}
+            .lighter United
           .price $1215
         .column.large-7.flight-info
           .clearfix
@@ -49,13 +52,13 @@
           %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
 
-  .row.collapse
     .result-boxes
       .row 
     
-        .column.large-2
-          %img{src: "/img/logos/United.png"}
-          .airline.lighter United
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/United.png"}
+            .airline.lighter United
           .price $1300
         .column.large-7.flight-info
           .clearfix
@@ -87,13 +90,13 @@
           %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
 
-  .row.collapse
     .result-boxes
       .row 
     
-        .column.large-2
-          %img{src: "/img/logos/United.png"}
-          .airline.lighter United
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/United.png"}
+            .airline.lighter United
           .price $1360
         .column.large-7.flight-info
           .clearfix
@@ -125,14 +128,13 @@
           %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
 
-
-  .row.collapse
     .result-boxes
       .row 
     
-        .column.large-2
-          %img{src: "/img/logos/Delta.png"}
-          .airline.lighter Delta
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/Delta.png"}
+            .airline.lighter Delta
           .price $1400
         .column.large-7.flight-info
           .clearfix
@@ -163,14 +165,13 @@
         .column.large-3
           %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
-
-  .row.collapse
     .result-boxes
       .row 
     
-        .column.large-2
-          %img{src: "/img/logos/United.png"}
-          .airline.lighter United
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/United.png"}
+            .airline.lighter United
           .price $1500
         .column.large-7.flight-info
           .clearfix
@@ -201,14 +202,13 @@
         .column.large-3
           %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
-
-  .row.collapse
     .result-boxes
       .row
 
-        .column.large-2
-          %img{src: "/img/logos/Delta.png"}
-          .airline.lighter Delta
+        .column.large-2.primary-info
+          .logo
+            %img{src: "/img/logos/Delta.png"}
+            .airline.lighter Delta
           .price $1550
         .column.large-7.flight-info
           .clearfix
