@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Jennifer Lynne";
-  src: url(/fonts/jennifer_lynne/jennifer_lynne.eot) format('embedded-opentype'), url(/fonts/jennifer_lynne/jennifer_lynne.eot) format('embedded-opentype');
+  src: url(/fonts/jennifer_lynne/jennifer_lynne.eot) format('embedded-opentype'), url(/fonts/jennifer_lynne/jennifer_lynne.ttf) format('truetype');
 }
 
 /* line 5, ../../views/stylesheets/main.scss */
