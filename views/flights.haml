@@ -1,4 +1,4 @@
-.form-page.extra-margin-bottom
+.form-page
   .row
     %h2.green.extra-margin-header Flights
     %form{action: "/flight_results"}
@@ -32,54 +32,9 @@
         .column.large-3
           %input.button.postfix{type: "submit", value: "Search"}  
                  
-.photo-collage.show-for-large-up
+                  
+#deals.hide-for-small-only
   .row
-    .column.medium-6
-      .image-collage  
-        %img{src: "/img/Deals1.png"}
-        .place Ireland Flights
-        .price $800+
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals8.png"}
-        .place Chicago Flights
-        .price $100+
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals3.png"}
-        .place Mexico Flights
-        .price $600+
+    %h2.green.extra-margin-header.column Deals
 
-  .row
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals4.png"}
-        .place New York Flights
-        .price $100+
-    .column.medium-6.hide-for-small-only
-      .image-collage 
-        %img{src: "/img/Deals5.png"}
-        .place Jamaica Flights
-        .price $700+
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals6.png"}
-        .place China Flights
-        .price $900+
-
-  .row
-    .column.medium-6
-      .image-collage 
-        %img{src: "/img/Deals7.png"}
-        .place Seattle Flights
-        .price $300+
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals2.png"}
-        .place Michigan Flights
-        .price $200+
-    .column.medium-3.small-6
-      .image-collage 
-        %img{src: "/img/Deals9.png"}
-        .place Paris Flights
-        .price $800+                    
+  = haml :'partials/deals'
