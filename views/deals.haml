@@ -1,15 +1,16 @@
 .form-page
-  .row
-    .column
-      %h2.green.margin-bottom.extra-margin-header Deals
-      %form
-        .row.collapse
-          .column.large-5
-            %input{type: "text", placeholder: "Chicago (CHI)"}
-          .column.large-5
-            %input{type: "text", placeholder: "Where would you like to go?"}
-          .column.large-2
-            %input.button.postfix{type: "submit", value: "Search"}  
+  .container
+    .row
+      .column
+        %h2.green.margin-bottom.extra-margin-header Deals
+        %form
+          .row.collapse
+            .column.large-5
+              %input{type: "text", placeholder: "Chicago (CHI)"}
+            .column.large-5
+              %input{type: "text", placeholder: "Where would you like to go?"}
+            .column.large-2
+              %input.button.postfix{type: "submit", value: "Search"}  
 
 .off-white-background.page-section
-  = haml :'partials/deals'
+  .container= haml :'partials/deals'

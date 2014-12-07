@@ -1,242 +1,241 @@
-.row.collapse
-  .column
+.container
+  .row
+    .column
 
-    .actions
-      .row
-        .column.small-6.large-3
-          %h3 CHI &#8646 SEA
-        .column.small-6.large-3
-          %select.right{type: "select"}
-            %option{value: "Price"} Price (low to high)
-            %option{value: "Price"} Price (high to low)
-            %option{value: "Departure"} Departure (Early to Late)}
-            %option{value: "Departure"} Departure (Late to Early)}
-            %option{value: "Duration"} Duration (Shorter to Longer)}
-            %option{value: "Duration"} Duration (Longer to Shorter)}
- 
-    .result-boxes
-      .row
-        
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/United.png"}
-            .lighter United
-          .price $1215
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                7:30a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                6:15a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                10:02p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                11:56p ORD
-            .left
-              .lighter 4h 32m nonstop
-              .lighter 3h 41m nonstop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+      .actions
+        .row
+          .column.small-6.large-3
+            %h3 CHI &#8646 SEA
+          .column.small-6.large-3.end
+            %select.right{type: "select"}
+              %option{value: "Price"} Price (low to high)
+              %option{value: "Price"} Price (high to low)
+              %option{value: "Departure"} Departure (Early to Late)}
+              %option{value: "Departure"} Departure (Late to Early)}
+              %option{value: "Duration"} Duration (Shorter to Longer)}
+              %option{value: "Duration"} Duration (Longer to Shorter)}
+   
+      .result-boxes
+        .row
 
-
-    .result-boxes
-      .row 
-    
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/United.png"}
-            .airline.lighter United
-          .price $1300
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                12:10a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                10:45a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                1:06p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                7:05p ORD
-            .left
-              .lighter 7h 10m nonstop
-              .lighter 8h 27m nonstop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/United.png"}
+              .lighter United
+            .price $1215
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  7:30a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  6:15a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  10:02p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  11:56p ORD
+              .left
+                .lighter 4h 32m nonstop
+                .lighter 3h 41m nonstop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
 
-    .result-boxes
-      .row 
-    
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/United.png"}
-            .airline.lighter United
-          .price $1360
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                9:07a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                9:45a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                1:06p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                10:45p ORD
-            .left
-              .lighter 5h 59m nonstop
-              .lighter 11h 00m nonstop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+      .result-boxes
+        .row 
+      
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/United.png"}
+              .airline.lighter United
+            .price $1300
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  12:10a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  10:45a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  1:06p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  7:05p ORD
+              .left
+                .lighter 7h 10m nonstop
+                .lighter 8h 27m nonstop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
 
-    .result-boxes
-      .row 
-    
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/Delta.png"}
-            .airline.lighter Delta
-          .price $1400
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                12:10a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                9:45a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                5:20p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                9:45p ORD
-            .left
-              .lighter 7h 10m nonstop
-              .lighter 10h 00m nonstop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+      .result-boxes
+        .row
 
-    .result-boxes
-      .row 
-    
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/United.png"}
-            .airline.lighter United
-          .price $1500
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                10:45a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                8:30a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                5:02p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                9:12p ORD
-            .left
-              .lighter 10h 00m 1 stop
-              .lighter 8h 27m 1 stop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/United.png"}
+              .airline.lighter United
+            .price $1360
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  9:07a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  9:45a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  1:06p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  10:45p ORD
+              .left
+                .lighter 5h 59m nonstop
+                .lighter 11h 00m nonstop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
 
-    .result-boxes
-      .row
 
-        .column.large-2.primary-info
-          .logo
-            %img{src: "/img/logos/Delta.png"}
-            .airline.lighter Delta
-          .price $1550
-        .column.large-7.flight-info
-          .clearfix
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                9:05a ORD
-              %div
-                %strong
-                  .hide-for-small-only Depart 
-                5:20a SEA 
-            .left
-              %div &#8674
-              %div &#8674
-            .left
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                5:20p SEA
-              %div
-                %strong
-                  .hide-for-small-only Arrive 
-                7:05p ORD
-            .left
-              .lighter 10h 15m nonstop
-              .lighter 8h 35m nonstop
-        .column.large-3
-          %input.book-button.button.postfix{type: "submit", value: "Book Flight"}                                        
-                        
+      .result-boxes
+        .row
 
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/Delta.png"}
+              .airline.lighter Delta
+            .price $1400
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  12:10a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  9:45a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  5:20p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  9:45p ORD
+              .left
+                .lighter 7h 10m nonstop
+                .lighter 10h 00m nonstop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+
+      .result-boxes
+        .row
+
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/United.png"}
+              .airline.lighter United
+            .price $1500
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  10:45a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  8:30a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  5:02p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  9:12p ORD
+              .left
+                .lighter 10h 00m 1 stop
+                .lighter 8h 27m 1 stop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+
+      .result-boxes
+        .row
+
+          .column.large-2.primary-info
+            .logo
+              %img{src: "/img/logos/Delta.png"}
+              .airline.lighter Delta
+            .price $1550
+          .column.large-7.flight-info
+            .clearfix
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  9:05a ORD
+                %div
+                  %strong
+                    .hide-for-small-only Depart 
+                  5:20a SEA 
+              .left
+                %div &#8674
+                %div &#8674
+              .left
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  5:20p SEA
+                %div
+                  %strong
+                    .hide-for-small-only Arrive 
+                  7:05p ORD
+              .left
+                .lighter 10h 15m nonstop
+                .lighter 8h 35m nonstop
+          .column.large-3
+            %input.book-button.button.postfix{type: "submit", value: "Book Flight"}

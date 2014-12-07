@@ -1,0 +1,47 @@
+$nav_height: 45px;
+
+nav.top-bar {
+  z-index: 100;
+  background: rgba(113, 176, 149, .5);
+  color: black;
+  height: $nav_height;
+  position: relative;
+  color: white;
+
+  h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  a {
+    color: white;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: $nav_height;
+    display: block;
+  }
+  a:hover {
+    background: rgba(113, 176, 149, .8);
+  }
+
+  ul {
+    li {
+      float: left;
+      list-style: none;
+    }
+  }
+
+  .mobile-menu {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .menu-icon {
+    height: 30px;
+    width: 30px;
+    background: url("/img/icons/menu_icon.png");
+    background-size: 30px 30px;
+  }
+}
+
+

@@ -1,28 +1,14 @@
-@import "compass";
-
 @include font-face("Jennifer Lynne", font-files("/fonts/jennifer_lynne/jennifer_lynne.eot", "/fonts/jennifer_lynne/jennifer_lynne.ttf"));
 
-body, h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(74, 74, 74);
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-
-#nav.top-bar {
-  z-index: 100;
-  background: rgba(113, 176, 149, .5);
-  color: black;
-
-  li, li a { 
-    background: none;
-  }
-
-  li:hover {
-    background: rgba(113, 176, 149, .6);
-
-  }
+img {
+  max-width: 100%;
+  display: inline-block;
 }
-
 
 #hero { 
   background-image: url("/img/hero/Hero.png");
@@ -192,10 +178,6 @@ body, h1, h2, h3 {
   font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
 }
 
-.position-right {
-  float: right;
-}
-
 .margin-bottom {
   margin-bottom: 7px;
 }
@@ -236,15 +218,13 @@ body, h1, h2, h3 {
 
 
 .footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: rgb(113, 176, 149);
+  padding: 40px;
+  background: $teal;
   color: white;
   text-align: center;
 
   a {
     color: white;
-    padding-bottom: 30px;
     font-size: 14px;
 
     &:hover {
