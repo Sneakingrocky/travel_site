@@ -306,26 +306,27 @@ input, textarea, select {
   -moz-transition: border 0.5s;
   -o-transition: border 0.5s;
   transition: border 0.5s;
+  line-height: 22px;
 }
-/* line 9, ../../views/stylesheets/_forms.scss */
+/* line 10, ../../views/stylesheets/_forms.scss */
 input:focus, textarea:focus, select:focus {
   outline: 0;
   border: 1px solid #42c28a;
 }
 
-/* line 15, ../../views/stylesheets/_forms.scss */
+/* line 16, ../../views/stylesheets/_forms.scss */
 input[type="text"], textarea {
   -webkit-transition: background 0.5s, border 0.5s;
   -moz-transition: background 0.5s, border 0.5s;
   -o-transition: background 0.5s, border 0.5s;
   transition: background 0.5s, border 0.5s;
 }
-/* line 18, ../../views/stylesheets/_forms.scss */
+/* line 19, ../../views/stylesheets/_forms.scss */
 input[type="text"]:focus, textarea:focus {
   background: #f9f9f9;
 }
 
-/* line 23, ../../views/stylesheets/_forms.scss */
+/* line 24, ../../views/stylesheets/_forms.scss */
 select {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
@@ -339,23 +340,23 @@ select {
   background-repeat: no-repeat;
   padding-right: 20px;
 }
-/* line 32, ../../views/stylesheets/_forms.scss */
+/* line 33, ../../views/stylesheets/_forms.scss */
 select:hover {
   border-color: #aaa;
 }
 
-/* line 37, ../../views/stylesheets/_forms.scss */
+/* line 38, ../../views/stylesheets/_forms.scss */
 input.button {
   border: none;
   padding: 9px;
   background: #00a990;
   color: white;
 }
-/* line 43, ../../views/stylesheets/_forms.scss */
+/* line 44, ../../views/stylesheets/_forms.scss */
 input.button:hover {
   background: #008f7a;
 }
-/* line 47, ../../views/stylesheets/_forms.scss */
+/* line 48, ../../views/stylesheets/_forms.scss */
 input.button:active {
   background: #007665;
 }
