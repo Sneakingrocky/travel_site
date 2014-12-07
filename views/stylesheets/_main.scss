@@ -27,31 +27,6 @@ img {
   }
 }
 
-.flight-form {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  color: black;
-  padding: 10px;
-  padding-top: 20px;
-  background: rgba(26, 53, 44,.6);
-
-  h2 {
-    top: -60px;
-    position: absolute;
-    color: white;
-  }
-
-  a {
-    color: white;
-
-    &:hover {
-      color: rgb(200, 200, 200);
-    }
-  } 
-}
-
 .image-collage {
   width: 100%;
   background: rgb(26, 33, 44);
@@ -89,7 +64,6 @@ img {
   right: 0;
 }
 
-
 .form-page {
   bottom: 0;
   left: 0;
@@ -98,10 +72,6 @@ img {
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 100px;
-}
-
-.flight-info .left {
-  padding: 0 5px;
 }
 
 .actions {
@@ -157,14 +127,6 @@ img {
   }
 }
 
-.lighter {
-  color: gray;
-}
-
-.green {
-  color: rgb(113, 176, 149);
-}
-
 .off-white-background {
   background-color: whitesmoke;
   border-top: 2px solid #e7e7e7;
@@ -174,12 +136,12 @@ img {
   padding: 100px 0;
 }
 
-.cursive {
-  font-family: "Jennifer Lynne", Arial, Helvetica, sans-serif;
-}
-
 .margin-bottom {
   margin-bottom: 7px;
+}
+
+.extramargin-bottom {
+  margin-bottom: 15px;
 }
 
 .extra-margin-bottom {
@@ -247,8 +209,4 @@ img {
   a:hover img {
     top: -5px;
   }
-}
-
-.subscript {
-  font-size: 0.5em;
 }

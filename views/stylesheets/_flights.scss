@@ -1,0 +1,52 @@
+.flight-form {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  padding-top: 20px;
+  background: rgba(26, 53, 44,.6);
+
+  h2 {
+    top: -60px;
+    position: absolute;
+    color: white;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: rgb(200, 200, 200);
+    }
+  } 
+}
+
+.flight-info .left {
+  padding: 0 5px;
+}
+
+.flight-time {
+  text-align: center;
+  border: 1px solid #bbb;
+  border-bottom-width: 3px;
+  @include border-radius(5px);
+  max-width: 100px;
+  margin: 0 auto;
+
+  .time {
+    padding: 15px 10px;
+    font-size: 20px;
+  }
+
+  .airport {
+    padding: 5px 10px;
+    background: #eee;
+  }
+}
+
+.flight-info .middle-info {
+  text-align: center;
+  margin-top: 20px;
+}

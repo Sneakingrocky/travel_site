@@ -6,7 +6,7 @@
   }
 }
 
-.show-for-small-up {
+.show-for-small-only {
   @media (min-width: $medium_width) {
     display: none;
   }

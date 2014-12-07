@@ -1,0 +1,71 @@
+.result-boxes
+  .row.show-for-small-only
+    .column.large-2.primary-info.extramargin-bottom
+      .logo
+        %img{src: "/img/logos/#{airliner}.png"}
+        .lighter= airliner
+      .price= price
+
+    .column.large-7.flight-info.extramargin-bottom
+      .row.extramargin-bottom
+        .column.small-4
+          .flight-time
+            .time= flight1_dep_time
+            .airport= departs
+        .column.small-4.middle-info
+          .small-text nonstop
+          %div &#8674
+          .small-text= flight1_duration
+        .column.small-4
+          .flight-time
+            .time= flight1_arr_time
+            .airport= arrives
+
+      .row
+        .column.small-4
+          .flight-time
+            .time= flight2_dep_time
+            .airport= arrives
+        .column.small-4.middle-info
+          .small-text nonstop
+          %div &#8674
+          .small-text= flight2_duration
+        .column.small-4
+          .flight-time
+            .time= flight2_arr_time
+            .airport= departs
+
+    .column.large-3
+      %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
+
+
+  .row.hide-for-small-only
+    .column.large-2.primary-info
+      .logo
+        %img{src: "/img/logos/#{airliner}.png"}
+        .airline.lighter= airliner
+      .price= price
+    .column.large-7.flight-info
+      .clearfix
+        .left
+          %div
+            %strong Depart 
+            #{flight1_dep_time} #{departs}
+          %div
+            %strong Depart 
+            #{flight1_arr_time} #{arrives}
+        .left
+          %div &#8674
+          %div &#8674
+        .left
+          %div
+            %strong Arrive 
+            #{flight2_dep_time} #{arrives}
+          %div
+            %strong Arrive 
+            #{flight2_arr_time} #{departs}
+        .left
+          .lighter #{flight1_duration} nonstop
+          .lighter #{flight2_duration} nonstop
+    .column.large-3
+      %input.book-button.button.postfix{type: "submit", value: "Book Flight"}

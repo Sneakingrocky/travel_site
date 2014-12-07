@@ -17,8 +17,19 @@
   float: left;
   width: 100%;
   position: relative;
-  .end {
+
+  &.end {
     float: right;
+  }
+}
+
+.row .row {
+  .column:first-child {
+    padding-left: 0;
+  }
+
+  .column:last-child {
+    padding-right: 0;
   }
 }
 
