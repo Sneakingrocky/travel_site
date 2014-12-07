@@ -7,10 +7,10 @@
         %select.right{type: "select"}
           %option{value: "Price"} Price (low to high)
           %option{value: "Price"} Price (high to low)
-          %option{value: "Departure"} Departure (Early to Late)}
-          %option{value: "Departure"} Departure (Late to Early)}
-          %option{value: "Duration"} Duration (Shorter to Longer)}
-          %option{value: "Duration"} Duration (Longer to Shorter)}
+          %option{value: "Departure"} Departure (Early to Late)
+          %option{value: "Departure"} Departure (Late to Early)
+          %option{value: "Duration"} Duration (Shorter to Longer)
+          %option{value: "Duration"} Duration (Longer to Shorter)
 
   = haml :'partials/flight_result', locals: {airliner: 'United', price: '$1215', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '7:30a', flight1_arr_time: '10:02p', flight1_duration: '4h32m', flight2_dep_time: '9:15a', flight2_arr_time: '3:13p', flight2_duration: '3h45m'}
 
