@@ -673,15 +673,10 @@ img {
   color: #c8c8c8;
 }
 
-/* line 26, ../../views/stylesheets/_flights.scss */
-.flight-info .left {
-  padding: 0 5px;
-}
-
-/* line 30, ../../views/stylesheets/_flights.scss */
-.flight-time {
+/* line 27, ../../views/stylesheets/_flights.scss */
+.flight-info-mobile .flight-time {
   text-align: center;
-  border: 1px solid #bbb;
+  border: 1px solid #ddd;
   border-bottom-width: 3px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -691,19 +686,47 @@ img {
   max-width: 100px;
   margin: 0 auto;
 }
-/* line 38, ../../views/stylesheets/_flights.scss */
-.flight-time .time {
+/* line 35, ../../views/stylesheets/_flights.scss */
+.flight-info-mobile .flight-time .time {
   padding: 15px 10px;
   font-size: 20px;
 }
-/* line 43, ../../views/stylesheets/_flights.scss */
-.flight-time .airport {
+/* line 40, ../../views/stylesheets/_flights.scss */
+.flight-info-mobile .flight-time .airport {
   padding: 5px 10px;
   background: #eee;
 }
-
-/* line 49, ../../views/stylesheets/_flights.scss */
-.flight-info .middle-info {
+/* line 46, ../../views/stylesheets/_flights.scss */
+.flight-info-mobile .middle-info {
   text-align: center;
   margin-top: 20px;
+}
+
+/* line 52, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop {
+  margin-bottom: 15px;
+}
+/* line 55, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop span {
+  display: inline-block;
+}
+/* line 59, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop .depart, .flight-info-desktop .arrive {
+  font-weight: bold;
+}
+/* line 63, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop .flight-time {
+  width: 50px;
+}
+/* line 67, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop .airport-code {
+  width: 40px;
+}
+/* line 71, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop .arrow {
+  margin: 0 4px;
+}
+/* line 75, ../../views/stylesheets/_flights.scss */
+.flight-info-desktop .duration {
+  margin-left: 20px;
 }

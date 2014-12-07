@@ -23,30 +23,56 @@
   } 
 }
 
-.flight-info .left {
-  padding: 0 5px;
-}
+.flight-info-mobile {
+  .flight-time {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom-width: 3px;
+    @include border-radius(5px);
+    max-width: 100px;
+    margin: 0 auto;
 
-.flight-time {
-  text-align: center;
-  border: 1px solid #bbb;
-  border-bottom-width: 3px;
-  @include border-radius(5px);
-  max-width: 100px;
-  margin: 0 auto;
+    .time {
+      padding: 15px 10px;
+      font-size: 20px;
+    }
 
-  .time {
-    padding: 15px 10px;
-    font-size: 20px;
+    .airport {
+      padding: 5px 10px;
+      background: #eee;
+    }
   }
 
-  .airport {
-    padding: 5px 10px;
-    background: #eee;
+  .middle-info {
+    text-align: center;
+    margin-top: 20px;
   }
 }
 
-.flight-info .middle-info {
-  text-align: center;
-  margin-top: 20px;
+.flight-info-desktop {
+  margin-bottom: 15px;
+
+  span {
+    display: inline-block;
+  }
+
+  .depart, .arrive {
+    font-weight: bold;
+  }
+
+  .flight-time {
+    width: 50px;
+  }
+
+  .airport-code {
+    width: 40px;
+  }
+
+  .arrow {
+    margin: 0 4px;
+  }
+
+  .duration {
+    margin-left: 20px;
+  }
 }

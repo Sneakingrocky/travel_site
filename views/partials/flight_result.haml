@@ -6,7 +6,7 @@
         .lighter= airliner
       .price= price
 
-    .column.large-7.flight-info.extramargin-bottom
+    .column.large-7.flight-info-mobile.extramargin-bottom
       .row.extramargin-bottom
         .column.small-4
           .flight-time
@@ -45,27 +45,26 @@
         %img{src: "/img/logos/#{airliner}.png"}
         .airline.lighter= airliner
       .price= price
-    .column.large-7.flight-info
-      .clearfix
-        .left
-          %div
-            %strong Depart 
-            #{flight1_dep_time} #{departs}
-          %div
-            %strong Depart 
-            #{flight1_arr_time} #{arrives}
-        .left
-          %div &#8674
-          %div &#8674
-        .left
-          %div
-            %strong Arrive 
-            #{flight2_dep_time} #{arrives}
-          %div
-            %strong Arrive 
-            #{flight2_arr_time} #{departs}
-        .left
-          .lighter #{flight1_duration} nonstop
-          .lighter #{flight2_duration} nonstop
+    .column.large-7
+      .flight-info-desktop
+        %span.depart Depart
+        %span.flight-time= flight1_dep_time
+        %span.airport-code= departs
+        %span.arrow &#8674
+        %span.arrive Arrive
+        %span.flight-time= flight1_arr_time
+        %span.airport-code= arrives
+        %span.duration.lighter #{flight1_duration} nonstop
+
+      .flight-info-desktop
+        %span.depart Depart
+        %span.flight-time= flight2_dep_time
+        %span.airport-code= arrives
+        %span.arrow &#8674
+        %span.arrive Arrive
+        %span.flight-time= flight2_arr_time
+        %span.airport-code= departs
+        %span.duration.lighter #{flight2_duration} nonstop
+
     .column.large-3
       %input.book-button.button.postfix{type: "submit", value: "Book Flight"}
