@@ -9,28 +9,29 @@
 
   %body
     %nav#nav.top-bar
-      %ul.title-area
-        %li.name
-          %h1
-            %a{href: "/"} Escape
-      %section.top-bar-section
-        %ul.left
-          %li
-            %a{href: "/flights"} Flights
-          %li
-            %a{href: "/hotels"} Hotels
-          %li
-            %a{href: "/cars"} Cars
-          %li.hide-for-small-only
-            %a{href: "/deals"} Deals
-        %ul.right
-          %li.hide-for-small-only
-            %a{href: "#"} Login
-          %li.hide-for-small-only
-            %a{href: "#"} Signup
-          %li.show-for-small-only
-            %a.mobile-menu{href: "#"}
-              .menu-icon
+      .container 
+        %ul.title-area
+          %li.name
+            %h1
+              %a{href: "/"} Escape
+        %section.top-bar-section
+          %ul.left
+            %li
+              %a{href: "/flights"} Flights
+            %li
+              %a{href: "/hotels"} Hotels
+            %li
+              %a{href: "/cars"} Cars
+            %li.hide-for-small-only
+              %a{href: "/deals"} Deals
+          %ul.right
+            %li.hide-for-small-only
+              %a{href: "#"} Login
+            %li.hide-for-small-only
+              %a{href: "#"} Signup
+            %li.show-for-small-only
+              %a.mobile-menu{href: "#"}
+                .menu-icon
 
     = yield
 
