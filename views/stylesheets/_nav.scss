@@ -24,10 +24,21 @@ nav.top-bar {
     background: rgba(113, 176, 149, .8);
   }
 
+  a.active:after { 
+    border-bottom: 5px solid white;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+
   ul {
     li {
       float: left;
       list-style: none;
+      position: relative;
     }
   }
 
@@ -42,6 +53,7 @@ nav.top-bar {
     background: url("/img/icons/menu_icon.png");
     background-size: 30px 30px;
   }
+
 }
 
 

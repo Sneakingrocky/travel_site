@@ -17,13 +17,13 @@
         %section.top-bar-section
           %ul.left
             %li.hide-for-small-only
-              %a{href: "/flights"} Flights
+              %a{href: "/flights", class: ("active" if @flights_tab)} Flights
             %li.hide-for-small-only
-              %a{href: "/hotels"} Hotels
+              %a{href: "/hotels", class: ("active" if @hotels_tab)} Hotels
             %li.hide-for-small-only
-              %a{href: "/cars"} Cars
+              %a{href: "/cars", class: ("active" if @cars_tab)} Cars
             %li.hide-for-small-only
-              %a{href: "/deals"} Deals
+              %a{href: "/deals", class: ("active" if @deals_tab)} Deals
           %ul.right
             %li.hide-for-small-only
               %a{href: "#"} Login

@@ -387,17 +387,27 @@ nav.top-bar a {
 nav.top-bar a:hover {
   background: rgba(113, 176, 149, 0.8);
 }
-/* line 28, ../../views/stylesheets/_nav.scss */
+/* line 27, ../../views/stylesheets/_nav.scss */
+nav.top-bar a.active:after {
+  border-bottom: 5px solid white;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 38, ../../views/stylesheets/_nav.scss */
 nav.top-bar ul li {
   float: left;
   list-style: none;
+  position: relative;
 }
-/* line 34, ../../views/stylesheets/_nav.scss */
+/* line 45, ../../views/stylesheets/_nav.scss */
 nav.top-bar .mobile-menu {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-/* line 39, ../../views/stylesheets/_nav.scss */
+/* line 50, ../../views/stylesheets/_nav.scss */
 nav.top-bar .menu-icon {
   height: 30px;
   width: 30px;
