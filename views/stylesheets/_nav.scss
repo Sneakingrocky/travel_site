@@ -10,7 +10,9 @@ nav.top-bar {
 
   h1 {
     margin: 0;
-    font-size: 18px;
+    a {
+      font-size: 18px;
+    }
   }
 
   a {

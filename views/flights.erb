@@ -1,0 +1,63 @@
+<div class="form-page">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h2 class="green extra-margin-header">Flights</h2>
+        <form action="/flight_results">
+          <div class="margin-bottom">
+            <a class="padding-right" href="#">Round-trip</a>
+            <a class="gray-hover" href="#">One-way</a>
+          </div>
+          <div class="row collapse">
+            <div class="column large-3 small-6">
+              <input placeholder="Chicago (CHI)" type="text"></input>
+            </div>
+            <div class="column large-3 small-6">
+              <input placeholder="To" type="text"></input>
+            </div>
+            <div class="column large-3 small-6">
+              <input placeholder="Depart" type="text"></input>
+            </div>
+            <div class="column large-3 small-6">
+              <input placeholder="Return" type="text"></input>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="column large-2 small-4">
+              <input placeholder="Adults" type="text"></input>
+            </div>
+            <div class="column large-2 small-4">
+              <input placeholder="Children" type="text"></input>
+            </div>
+            <div class="column large-2 small-4">
+              <input placeholder="Infants" type="text"></input>
+            </div>
+            <div class="column large-3">
+              <select type="select">
+                <option value="Economy">Economy</option>
+                <option value="Premium Economy">Premium Economy</option>
+                <option value="Business">Business</option>
+                <option value="First Class">First Class       </option>
+              </select>
+            </div>
+            <div class="column large-3">
+              <input class="button postfix" type="submit" value="Search"></input>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hide-for-small-only" id="deals">
+  <div class="off-white-background page-section">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h2 class="green">Deals</h2>
+        </div>
+      </div>
+      <%= erb :'partials/deals' %>
+    </div>
+  </div>
+</div>

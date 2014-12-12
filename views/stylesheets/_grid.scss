@@ -8,7 +8,7 @@
 }
 
 .row {
-  @include clearfix;
+  @include legacy-pie-clearfix;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .row .row {
-  .column:first-child {
+  .column:first-child:not(.end) {
     padding-left: 0;
   }
 

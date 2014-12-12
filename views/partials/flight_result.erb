@@ -1,0 +1,132 @@
+<div class="result-boxes">
+  <div class="row show-for-small-only">
+    <div class="column large-2 primary-info extramargin-bottom">
+      <div class="logo">
+        <img src="/img/logos/<%= airliner %>.png"/>
+        <div class="lighter">
+          <%= airliner %>
+        </div>
+      </div>
+      <div class="price">
+        <%= price %>
+      </div>
+    </div>
+    <div class="column large-7 flight-info-mobile extramargin-bottom">
+      <div class="row extramargin-bottom">
+        <div class="column small-4">
+          <div class="flight-time">
+            <div class="time">
+              <%= flight1_dep_time %>
+            </div>
+            <div class="airport">
+              <%= departs %>
+            </div>
+          </div>
+        </div>
+        <div class="column small-4 middle-info">
+          <div class="small-text">nonstop</div>
+          <div>&#8674</div>
+          <div class="small-text">
+            <%= flight1_duration %>
+          </div>
+        </div>
+        <div class="column small-4">
+          <div class="flight-time">
+            <div class="time">
+              <%= flight1_arr_time %>
+            </div>
+            <div class="airport">
+              <%= arrives %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column small-4">
+          <div class="flight-time">
+            <div class="time">
+              <%= flight2_dep_time %>
+            </div>
+            <div class="airport">
+              <%= arrives %>
+            </div>
+          </div>
+        </div>
+        <div class="column small-4 middle-info">
+          <div class="small-text">nonstop</div>
+          <div>&#8674</div>
+          <div class="small-text">
+            <%= flight2_duration %>
+          </div>
+        </div>
+        <div class="column small-4">
+          <div class="flight-time">
+            <div class="time">
+              <%= flight2_arr_time %>
+            </div>
+            <div class="airport">
+              <%= departs %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column large-3">
+      <input class="book-button button postfix" type="submit" value="Book Flight"></input>
+    </div>
+  </div>
+  <div class="row hide-for-small-only">
+    <div class="column large-2 primary-info">
+      <div class="logo">
+        <img src="/img/logos/<%= airliner %>.png"/>
+        <div class="airline lighter">
+          <%= airliner %>
+        </div>
+      </div>
+      <div class="price">
+        <%= price %>
+      </div>
+    </div>
+    <div class="column large-7">
+      <div class="flight-info-desktop">
+        <span class="depart">Depart</span>
+        <span class="flight-time">
+          <%= flight1_dep_time %>
+        </span>
+        <span class="airport-code">
+          <%= departs %>
+        </span>
+        <span class="arrow">&#8674</span>
+        <span class="arrive">Arrive</span>
+        <span class="flight-time">
+          <%= flight1_arr_time %>
+        </span>
+        <span class="airport-code">
+          <%= arrives %>
+        </span>
+        <span class="duration lighter"><%=flight1_duration %> nonstop</span>
+      </div>
+      <div class="flight-info-desktop">
+        <span class="depart">Depart</span>
+        <span class="flight-time">
+          <%= flight2_dep_time %>
+        </span>
+        <span class="airport-code">
+          <%= arrives %>
+        </span>
+        <span class="arrow">&#8674</span>
+        <span class="arrive">Arrive</span>
+        <span class="flight-time">
+          <%= flight2_arr_time %>
+        </span>
+        <span class="airport-code">
+          <%= departs %>
+        </span>
+        <span class="duration lighter"><%=flight2_duration %> nonstop</span>
+      </div>
+    </div>
+    <div class="column large-3">
+      <input class="book-button button postfix" type="submit" value="Book Flight"></input>
+    </div>
+  </div>
+</div>

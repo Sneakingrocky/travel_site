@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="actions">
+    <div class="row">
+      <div class="column small-6 large-3">
+        <h3>CHI &#8646 SEA</h3>
+      </div>
+      <div class="column small-6 large-3 end">
+        <select class="right" type="select">
+          <option value="Price">Price (low to high)</option>
+          <option value="Price">Price (high to low)</option>
+          <option value="Departure">Departure (Early to Late)</option>
+          <option value="Departure">Departure (Late to Early)</option>
+          <option value="Duration">Duration (Shorter to Longer)</option>
+          <option value="Duration">Duration (Longer to Shorter)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <%= erb :'partials/flight_result', locals: {airliner: 'United', price: '$1215', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '7:30a', flight1_arr_time: '10:02p', flight1_duration: '4h32m', flight2_dep_time: '9:15a', flight2_arr_time: '3:13p', flight2_duration: '3h45m'} %>
+  <%= erb :'partials/flight_result', locals: {airliner: 'United', price: '$1300', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '12:10p', flight1_arr_time: '4:20p', flight1_duration: '3h50m', flight2_dep_time: '6:05a', flight2_arr_time: '11:30p', flight2_duration: '5h25m'} %>
+  <%= erb :'partials/flight_result', locals: {airliner: 'United', price: '$1360', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '9:07a', flight1_arr_time: '2:22p', flight1_duration: '4h15m', flight2_dep_time: '1:03p', flight2_arr_time: '5:44p', flight2_duration: '4h45m'} %>
+  <%= erb :'partials/flight_result', locals: {airliner: 'Delta', price: '$1400', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '9:12:10a', flight1_arr_time: '9:45a', flight1_duration: '7h10m', flight2_dep_time: '5:20p', flight2_arr_time: '9:45p', flight2_duration: '10h'} %>
+  <%= erb :'partials/flight_result', locals: {airliner: 'United', price: '$1500', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '11:20a', flight1_arr_time: '4:40p', flight1_duration: '5h50m', flight2_dep_time: '5:20p', flight2_arr_time: '9:45p', flight2_duration: '10h3m'} %>
+  <%= erb :'partials/flight_result', locals: {airliner: 'Delta', price: '$1650', departs: 'ORD', arrives: 'SEA', flight1_dep_time: '9:12:10a', flight1_arr_time: '9:45a', flight1_duration: '7h10m', flight2_dep_time: '5:20p', flight2_arr_time: '9:45p', flight2_duration: '10h'} %>
+</div>

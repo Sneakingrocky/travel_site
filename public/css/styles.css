@@ -52,9 +52,17 @@
 
 /* line 10, ../../views/stylesheets/_grid.scss */
 .row {
-  overflow: hidden;
   *zoom: 1;
   width: 100%;
+}
+/* line 22, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.row:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 /* line 15, ../../views/stylesheets/_grid.scss */
@@ -70,7 +78,7 @@
 }
 
 /* line 27, ../../views/stylesheets/_grid.scss */
-.row .row .column:first-child {
+.row .row .column:first-child:not(.end) {
   padding-left: 0;
 }
 /* line 31, ../../views/stylesheets/_grid.scss */
@@ -373,9 +381,12 @@ nav.top-bar {
 /* line 11, ../../views/stylesheets/_nav.scss */
 nav.top-bar h1 {
   margin: 0;
+}
+/* line 13, ../../views/stylesheets/_nav.scss */
+nav.top-bar h1 a {
   font-size: 18px;
 }
-/* line 16, ../../views/stylesheets/_nav.scss */
+/* line 18, ../../views/stylesheets/_nav.scss */
 nav.top-bar a {
   color: white;
   padding: 0 15px;
@@ -383,11 +394,11 @@ nav.top-bar a {
   line-height: 45px;
   display: block;
 }
-/* line 23, ../../views/stylesheets/_nav.scss */
+/* line 25, ../../views/stylesheets/_nav.scss */
 nav.top-bar a:hover {
   background: rgba(113, 176, 149, 0.8);
 }
-/* line 27, ../../views/stylesheets/_nav.scss */
+/* line 29, ../../views/stylesheets/_nav.scss */
 nav.top-bar a.active:after {
   border-bottom: 5px solid white;
   content: '';
@@ -396,18 +407,18 @@ nav.top-bar a.active:after {
   right: 0;
   bottom: 0;
 }
-/* line 38, ../../views/stylesheets/_nav.scss */
+/* line 40, ../../views/stylesheets/_nav.scss */
 nav.top-bar ul li {
   float: left;
   list-style: none;
   position: relative;
 }
-/* line 45, ../../views/stylesheets/_nav.scss */
+/* line 47, ../../views/stylesheets/_nav.scss */
 nav.top-bar .mobile-menu {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-/* line 50, ../../views/stylesheets/_nav.scss */
+/* line 52, ../../views/stylesheets/_nav.scss */
 nav.top-bar .menu-icon {
   height: 30px;
   width: 30px;
@@ -670,7 +681,7 @@ img {
 }
 /* line 11, ../../views/stylesheets/_flights.scss */
 .flight-form h2 {
-  top: -60px;
+  top: -80px;
   position: absolute;
   color: white;
 }

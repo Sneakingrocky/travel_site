@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>Escape Travel Website</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css"></link>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css"></link>
+  </head>
+  <body>
+    <nav class="top-bar" id="nav">
+      <div class="container">
+        <ul class="title-area">
+          <li class="name">
+            <h1>
+              <a href="/">Escape</a>
+            </h1>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="hide-for-small-only">
+              <a class="<%= ("active" if @flights_tab) %>" href="/flights">Flights</a>
+            </li>
+            <li class="hide-for-small-only">
+              <a class="<%= ("active" if @hotels_tab) %>" href="/hotels">Hotels</a>
+            </li>
+            <li class="hide-for-small-only">
+              <a class="<%= ("active" if @cars_tab) %>" href="/cars">Cars</a>
+            </li>
+            <li class="hide-for-small-only">
+              <a class="<%= ("active" if @deals_tab) %>" href="/deals">Deals</a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li class="hide-for-small-only">
+              <a href="#">Login</a>
+            </li>
+            <li class="hide-for-small-only">
+              <a href="#">Signup</a>
+            </li>
+            <li class="show-for-small-only">
+              <a class="mobile-menu" href="#">
+                <div class="menu-icon"></div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </nav>
+    <%= yield %>
+    <%= erb :'partials/footer'   %>
+  </body>
+</html>
