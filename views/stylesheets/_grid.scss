@@ -4,12 +4,14 @@
 
 .container {
   max-width: 1000px;
+  padding: 0 $gutter;
   margin: 0 auto;
 }
 
 .row {
   @include legacy-pie-clearfix;
-  width: 100%;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
 }
 
 .column {
@@ -23,17 +25,9 @@
   }
 }
 
-.row .row {
-  .column:first-child:not(.end) {
-    padding-left: 0;
-  }
-
-  .column:last-child {
-    padding-right: 0;
-  }
-}
-
 .row.collapse {
+  margin: 0;
+
   .column {
     padding: 0;
   }

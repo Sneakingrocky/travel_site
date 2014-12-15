@@ -8,8 +8,13 @@ nav.top-bar {
   position: relative;
   color: white;
 
+  .container {
+    padding: 0;
+  }
+
   h1 {
     margin: 0;
+
     a {
       font-size: 18px;
     }
@@ -22,7 +27,8 @@ nav.top-bar {
     line-height: $nav_height;
     display: block;
   }
-  a:hover {
+
+  .top-bar-section a:hover {
     background: rgba(113, 176, 149, .8);
   }
 
@@ -33,7 +39,6 @@ nav.top-bar {
     left: 0;
     right: 0;
     bottom: 0;
-    
   }
 
   ul {
