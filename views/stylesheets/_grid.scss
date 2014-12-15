@@ -10,8 +10,11 @@
 
 .row {
   @include legacy-pie-clearfix;
-  margin-left: -$gutter;
-  margin-right: -$gutter;
+
+  &:not(.collapse) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
 }
 
 .column {
@@ -26,8 +29,6 @@
 }
 
 .row.collapse {
-  margin: 0;
-
   .column {
     padding: 0;
   }

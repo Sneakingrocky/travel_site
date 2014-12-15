@@ -5,7 +5,7 @@ input, textarea, select {
   margin-bottom: 15px;
   border: 1px solid #ddd;
   @include transition(border 0.5s);
-  line-height: 22px;
+  line-height: 1.5em;
 
   &:focus {
     outline: 0;

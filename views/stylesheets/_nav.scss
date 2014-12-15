@@ -16,14 +16,14 @@ nav.top-bar {
     margin: 0;
 
     a {
-      font-size: 18px;
+      font-size: 0.6em;
     }
   }
 
   a {
     color: white;
-    padding: 0 15px;
-    font-size: 12px;
+    padding: 0 $gutter;
+    font-size: 0.8em;
     line-height: $nav_height;
     display: block;
   }
